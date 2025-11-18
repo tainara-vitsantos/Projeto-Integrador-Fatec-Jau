@@ -7,36 +7,47 @@
 ### Faculdade de Tecnologia de Jahu  
 ### Curso de Tecnologia em Desenvolvimento de Software Multiplataforma  
 ### Jaú, SP, BR  
-### Início: 2º Semestre / 2025
+### Início 2º Semestre / 2025
 
 </div>
 
 <br>
 
-<h3> align="center">Autores</h3>
+<h3 align="center">Autores</h3>
 
 <table align="center">
   <tr>
     <td align="center" style="padding: 15px;">
       <img src="https://github.com/user-attachments/assets/c24c1caf-82cc-49a1-8f84-700b133ec2ff" width="150" style="border-radius: 15px;" /><br>
-      <strong>Aline C. A. Rocha</strong>
+      <strong>
+        <a href="https://www.linkedin.com/in/aline-canola-antonio-rocha-3a881b369" target="_blank">Aline C. A. Rocha</a>
+      </strong>
     </td>
     <td align="center" style="padding: 15px;">
       <img src="https://github.com/user-attachments/assets/5157d044-3c37-4041-a560-a86fc6525481" width="150" style="border-radius: 15px;" /><br>
-      <strong>Evellyn Santana</strong>
+      <strong>
+        <a href="#">Evellyn Santana</a>
+      </strong>
     </td>
     <td align="center" style="padding: 15px;">
       <img src="https://github.com/user-attachments/assets/9bc0f4bc-b4c5-4130-a62c-17d6b213d563" width="150" style="border-radius: 15px;" /><br>
-      <strong>Lucas A. Ribeiro</strong>
+      <strong>
+        <a href="#">Lucas A. Ribeiro</a>
+      </strong>
     </td>
     <td align="center" style="padding: 15px;">
       <img src="https://github.com/user-attachments/assets/9a7cd450-a2eb-4dd2-805f-c56960aec8c6" width="150" style="border-radius: 15px;" /><br>
-      <strong>Luhan</strong>
+      <strong>
+        <a href="#">Luhan</a>
+      </strong>
     </td>
     <td align="center" style="padding: 15px;">
       <img src="https://github.com/user-attachments/assets/e7a99a5f-e5f8-427f-9b33-d6b331ccd071" width="150" style="border-radius: 15px;" /><br>
-      <strong>Tainara Santos</strong>
+      <strong>
+        <a href="https://www.linkedin.com/in/tainaravit-santos2025/" target="_blank">Tainara Santos</a>
+      </strong>
     </td>
+
   </tr>
 </table>
 
@@ -191,6 +202,7 @@ O estudo mostrou que o projeto é:
 ---
 
 # 11. Aplicação
+
 
 
 
