@@ -1,8 +1,8 @@
-<p align="center" style="font-size:28px;"><strong><em>Documentação do Projeto Integrador</em></strong></p>
+<p align="center" style="font-size:28px;"><strong><em>Documentação do Projeto Interdiciplinar</em></strong></p>
 
 <div align="center" id="inicio">
 
-# Sistema de Agendamento para Clinica de Estética  
+# ERP Essense SPA - Sistema de Agendamento para Clinica de Estética  
 ### Centro Paula Souza  
 ### Faculdade de Tecnologia de Jahu  
 ### Curso de Tecnologia em Desenvolvimento de Software Multiplataforma  
@@ -51,15 +51,11 @@
   </tr>
 </table>
 
-
-
-
-
-
-# Projeto-Integrador-Fatec-Jau
-O projeto tem como objetivo desenvolver um sistema de agendamento e gestão de atendimentos para uma clínica de estética, trazendo mais organização, praticidade e eficiência no relacionamento entre clientes e esteticistas.
-
-
+# Projeto-Interdiciplinar-Fatec-Jau
+Projeto desenvolvido com o apoio do conteúdo adquirido nas diciplicas do 1º Semestre do curso de DSM - Fatec Jahu, especificamente nas diciplinas chaves: 
+- Design Digital
+- Desing WEB
+- Engenharia de Software
 
 # *Documentação do Projeto Integrador (PI)*  
 
@@ -87,31 +83,101 @@ O projeto tem como objetivo desenvolver um sistema de agendamento e gestão de a
 ---
 
 # 1. Introdução  
-*(Contextualização, justificativa do projeto: Por quê?)*  
+ O mercado de estética no Brasil tem mostrado um crescimento expressivo e reseliência notável.
+ A crescenta demanda por serviços estéticos e profissionalização no setor exigem que as clientes adotem ferramentas de gestão mais sofisticados. 
 
 ## 🎯 Objetivos  
 
+Objetivo Geral:
+Desenvolver um sistema ERP completo e intuitivo para otimizar a gestão de clínicas de estética de pequeno e médio porte.
+
+Objetivos Especificos:
+- Centralizar gestão de agendamentos
+- Automatizar Controle Financeiro
+- Automatizar Controle de Estoque
+- Ferramenta CRM
+- Relatórios e Dashboard gerenciais.
+
 ## 🛠️ Metodologia  
-*(Métodos, tecnologias, modelos de processo, ferramentas utilizadas.  
-Responde às perguntas: Como? Com o quê? Onde? Quando?)*  
+Para o desenvolvimento do Sistema de Agendamento para Clínica de Estética, utilizamos uma combinação de métodos, ferramentas e tecnologias que permitiram organizar o trabalho da equipe e garantir um fluxo claro de construção do projeto.
+
+🔹 Como trabalhamos (Métodos e Processo)
+
+- Aplicamos o modelo Ágil (Scrum simplificado) para organizar as tarefas.
+- Realizamos reuniões frequentes no grupo para alinhamento de atividades.
+- Criamos sprints semanais com metas específicas para cada integrante.
+- Utilizamos Quadro Kanban no GitHub Projects para acompanhar progresso e pendências.
+- Registramos decisões e mudanças na aba Issues do GitHub.
+
+🔹 Com o quê desenvolvemos (Tecnologias e Ferramentas)
+
+- Frontend: HTML5, CSS3 e JavaScript - Vide Código
+- Design e prototipação: Figma (criação de telas, fluxos e padronização visual).
+  <a herf= "https://www.figma.com/proto/1Le26sngVuPy61TJzUhlfK/TelasLuhan?node-id=670-1431&t=h7rONkitrp9DdYNM-1">Link Protótipo Figma</a>
+- Controle de versão: Git e GitHub (branches, commits e pull requests).
+- Documentação: Markdown e GitHub README.
+- Comunicação da equipe: WhatsApp e reuniões presenciais/online.
+- Apresentação: Power Point apresentação final.
+
+🔹 Onde e Quando aplicamos
+   
+   O desenvolvimento foi realizado de forma híbrida (remoto e presencial).
+   As atividades foram distribuídas ao longo do 2º semestre de 2025.
+   As revisões e ajustes finais foram feitos nos últimos encontros do grupo.
 
 ---
 
 # 2. Requisitos  
 
 ## ⚙️ Requisitos funcionais  
-*(Funcionalidades esperadas, necessidades que devem ser atendidas)*  
+🔷 Requisitos de Agendamento
+ RF01 Cancelar e remarcar agendamento pelo cliente
+ RF02 Cancelar e remarcar agendamento pelo profissional
+ RF03 Controlar agenda individual do esteticista
+ RF04 Enviar formulário de agendamento
+
+🔷 Requisitos de Preferência e Seleção
+ RF05 Escolher esteticista durante o agendamento
+
+🔷 Requisitos de Relatórios
+ RF06 Emitir relatórios gerenciais
+ RF07 Emitir relatatórios de clientes
+
+🔷 Requisitos de Comunicação e Notificações
+ RF08 Enviar notificações e lembretes automáticos
+
+🔷 Requisitos de Identificação do Usuário
+ RF09 Realizar login
+ RF10 – Realizar cadastro
 
 ## 🧩 Requisitos não funcionais  
-*(Critérios de qualidade do sistema)*  
-- Requisitos de produto  
-- Requisitos de organização  
-- Requisitos de confiabilidade  
-- Requisito de implementação  
-- Requisito de padrões  
-- Requisitos de interoperabilidade  
 
----
+🔷 Requisitos de Produto: Características diretamente ligadas à experiência de uso e desempenho.
+ RNF01 Garantir autenticação segura
+ RNF02 Assegurar alto desempenho do sistema
+ RNF03 Permitir personalizar a interface conforme necessidade da clínica
+ RNF04 Garantir usabilidade intuitiva
+ RNF05 Proporcionar boa experiência ao usuário
+ RNF06 Assegurar responsividade em diferentes dispositivos
+
+🔷 Requisitos de Confiabilidade: Segurança, proteção e integridade de dados.
+ RNF07 Proteger dados sensíveis dos usuários
+ RNF08 Implementar lembretes automáticos de agendamentos
+ RNF09 Manter histórico confiável da agenda do esteticista
+ RNF10 Garantir restrições de acesso conforme perfil de usuário
+
+🔷 Requisitos de Organização: Alinhamento com necessidades administrativas e operacionais.
+ RNF11 Permitir autonomia ao administrador para gerenciar configurações do sistema
+ RNF12 Oferecer controle financeiro integrado
+ RNF13 Registrar cancelamentos realizados pelo cliente
+ RNF14 Registrar cancelamentos realizados pelo esteticista
+
+🔷 Requisitos de Implementação: Aspectos técnicos necessários para desenvolvimento.
+ RNF15 Implementar mecanismo para pré-pagamento de serviços
+ RNF16 Implementar seleção de esteticista pelo cliente no agendamento
+
+🔷 Requisitos de Interoperabilidade: Integração com outros serviços e ferramentas.
+ RFN17 Habilitar marketing automatizado integrado (MKT Automation)
 
 
 
@@ -202,6 +268,7 @@ O estudo mostrou que o projeto é:
 ---
 
 # 11. Aplicação
+
 
 
 
