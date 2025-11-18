@@ -11,7 +11,7 @@
 
   </div>
 
- <h3 align="center">Autores</h3>
+<h3 align="center">Autores</h3>
 
 <table align="center">
   <tr>
@@ -209,6 +209,7 @@ O estudo mostrou que o projeto é:
 ---
 
 # 11. Aplicação
+
 
 
 
