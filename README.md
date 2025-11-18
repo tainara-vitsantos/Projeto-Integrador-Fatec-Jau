@@ -129,55 +129,55 @@ Para o desenvolvimento do Sistema de Agendamento para Clínica de Estética, uti
 
 # 2. Requisitos  
 
-## ⚙️ Requisitos funcionais  
-🔷 Requisitos de Agendamento
- RF01 Cancelar e remarcar agendamento pelo cliente
- RF02 Cancelar e remarcar agendamento pelo profissional
- RF03 Controlar agenda individual do esteticista
- RF04 Enviar formulário de agendamento
+## ⚙️ Requisitos funcionais  <br>
+🔷 Requisitos de Agendamento <br>
+ RF01 Cancelar e remarcar agendamento pelo cliente <br>
+ RF02 Cancelar e remarcar agendamento pelo profissional <br>
+ RF03 Controlar agenda individual do esteticista <br>
+ RF04 Enviar formulário de agendamento <br>
 
-🔷 Requisitos de Preferência e Seleção
- RF05 Escolher esteticista durante o agendamento
+🔷 Requisitos de Preferência e Seleção <br>
+ RF05 Escolher esteticista durante o agendamento <br>
 
-🔷 Requisitos de Relatórios
- RF06 Emitir relatórios gerenciais
- RF07 Emitir relatatórios de clientes
+🔷 Requisitos de Relatórios <br>
+ RF06 Emitir relatórios gerenciais <br>
+ RF07 Emitir relatatórios de clientes <br>
 
-🔷 Requisitos de Comunicação e Notificações
- RF08 Enviar notificações e lembretes automáticos
+🔷 Requisitos de Comunicação e Notificações <br>
+ RF08 Enviar notificações e lembretes automáticos <br>
 
-🔷 Requisitos de Identificação do Usuário
- RF09 Realizar login
- RF10 – Realizar cadastro
+🔷 Requisitos de Identificação do Usuário <br>
+ RF09 Realizar login <br>
+ RF10 – Realizar cadastro <br>
 
-## 🧩 Requisitos não funcionais  
+## 🧩 Requisitos não funcionais <br>  
 
-🔷 Requisitos de Produto: Características diretamente ligadas à experiência de uso e desempenho.
- RNF01 Garantir autenticação segura
- RNF02 Assegurar alto desempenho do sistema
- RNF03 Permitir personalizar a interface conforme necessidade da clínica
- RNF04 Garantir usabilidade intuitiva
- RNF05 Proporcionar boa experiência ao usuário
- RNF06 Assegurar responsividade em diferentes dispositivos
+🔷 Requisitos de Produto: Características diretamente ligadas à experiência de uso e desempenho. <br>
+ RNF01 Garantir autenticação segura <br>
+ RNF02 Assegurar alto desempenho do sistema <br>
+ RNF03 Permitir personalizar a interface conforme necessidade da clínica <br>
+ RNF04 Garantir usabilidade intuitiva <br>
+ RNF05 Proporcionar boa experiência ao usuário <br>
+ RNF06 Assegurar responsividade em diferentes dispositivos <br>
 
-🔷 Requisitos de Confiabilidade: Segurança, proteção e integridade de dados.
- RNF07 Proteger dados sensíveis dos usuários
- RNF08 Implementar lembretes automáticos de agendamentos
- RNF09 Manter histórico confiável da agenda do esteticista
- RNF10 Garantir restrições de acesso conforme perfil de usuário
+🔷 Requisitos de Confiabilidade: Segurança, proteção e integridade de dados. <br>
+ RNF07 Proteger dados sensíveis dos usuários <br>
+ RNF08 Implementar lembretes automáticos de agendamentos <br>
+ RNF09 Manter histórico confiável da agenda do esteticista <br>
+ RNF10 Garantir restrições de acesso conforme perfil de usuário <br>
 
-🔷 Requisitos de Organização: Alinhamento com necessidades administrativas e operacionais.
- RNF11 Permitir autonomia ao administrador para gerenciar configurações do sistema
- RNF12 Oferecer controle financeiro integrado
- RNF13 Registrar cancelamentos realizados pelo cliente
- RNF14 Registrar cancelamentos realizados pelo esteticista
+🔷 Requisitos de Organização: Alinhamento com necessidades administrativas e operacionais. <br>
+ RNF11 Permitir autonomia ao administrador para gerenciar configurações do sistema <br>
+ RNF12 Oferecer controle financeiro integrado <br>
+ RNF13 Registrar cancelamentos realizados pelo cliente <br>
+ RNF14 Registrar cancelamentos realizados pelo esteticista <br>
 
-🔷 Requisitos de Implementação: Aspectos técnicos necessários para desenvolvimento.
- RNF15 Implementar mecanismo para pré-pagamento de serviços
- RNF16 Implementar seleção de esteticista pelo cliente no agendamento
+🔷 Requisitos de Implementação: Aspectos técnicos necessários para desenvolvimento. <br>
+ RNF15 Implementar mecanismo para pré-pagamento de serviços <br>
+ RNF16 Implementar seleção de esteticista pelo cliente no agendamento <br>
 
-🔷 Requisitos de Interoperabilidade: Integração com outros serviços e ferramentas.
- RFN17 Habilitar marketing automatizado integrado (MKT Automation)
+🔷 Requisitos de Interoperabilidade: Integração com outros serviços e ferramentas. <br>
+ RFN17 Habilitar marketing automatizado integrado (MKT Automation) <br>
 
 
 
@@ -268,6 +268,7 @@ O estudo mostrou que o projeto é:
 ---
 
 # 11. Aplicação
+
 
 
 
