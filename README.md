@@ -14,11 +14,20 @@
   # Autores:
 <h3 align="center">
   <a href="icone Linkedin"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" align="center" width="20"></a> &nbsp;
-  <a href="https://www.linkedin.com/in/tainaravit-santos2025/">Tainara Santos</a>;
-  <a href="#">Evellyn</a>;
-  <a href="#">Lucas</a>;
-  <a href="#">Aline Canola Antonio Rocha</a>;
+  <img width="663" height="829" alt="image" src="https://github.com/user-attachments/assets/c24c1caf-82cc-49a1-8f84-700b133ec2ff" /> <br>
+  <a href="https://www.linkedin.com/in/aline-canola-antonio-rocha-3a881b369">Aline C. A. Rocha</a>;
+  <img width="1200" height="1500" alt="image" src="https://github.com/user-attachments/assets/5157d044-3c37-4041-a560-a86fc6525481" /> <br>
+  <a href="#">Evellyn Santana</a>;
+  <img width="1200" height="1500" alt="image" src="https://github.com/user-attachments/assets/9bc0f4bc-b4c5-4130-a62c-17d6b213d563" /> <br>
+  <a href="#">Lucas A. Ribeiro</a>;
+  <img width="397" height="496" alt="image" src="https://github.com/user-attachments/assets/9a7cd450-a2eb-4dd2-805f-c56960aec8c6" /> <br>
   <a href="#">Luhan</a>.
+  <img width="1080" height="1350" alt="image" src="https://github.com/user-attachments/assets/e7a99a5f-e5f8-427f-9b33-d6b331ccd071" /> <br>
+  <a href="https://www.linkedin.com/in/tainaravit-santos2025/">Tainara Santos</a>;
+  
+  
+  
+  
 </h3>
 
 # Projeto-Integrador-Fatec-Jau
@@ -167,6 +176,7 @@ O estudo mostrou que o projeto é:
 ---
 
 # 11. Aplicação
+
 
 
 
