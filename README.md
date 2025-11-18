@@ -179,11 +179,7 @@ Para o desenvolvimento do Sistema de Agendamento para Clínica de Estética, uti
 🔷 Requisitos de Interoperabilidade: Integração com outros serviços e ferramentas. <br>
  RFN17 Habilitar marketing automatizado integrado (MKT Automation) <br>
 
-
-
 # 7. Estudo de viabilidade  
-
-<h1> Sistema ERP para Clínica de Estética </h1>
 
 ## Viabilidade Técnica:
   A análise sobre a viabilidade técnica do sistema ERP mostrou que sua criação e funcionamento é possível com os recursos disponíveis. O time de desenvolvimento possui e está evoluindo em níveis de programação, gerenciamento e conhecimento técnico nos recursos necessários. A infraestrutura do projeto permite fácil integração e manuseio por parte do usuário.
@@ -253,21 +249,40 @@ O estudo mostrou que o projeto é:
 
 ---
 
-# 9. Design  
-- 🎨 Paleta de cores  
-- ✍️ Tipografia  
-- 🔖 Logo  
-- 🧩 Wireframes  
-- 🗺️ Modelo de navegação  
+# 9. Design
+A identidade visual do projeto foi desenvolvida para transmitir leveza, bem-estar e confiança, alinhada ao contexto de uma clínica de estética.
+A seguir estão os principais elementos que compõem o design do sistema:
 
----
+🎨 Paleta de Cores:
+A paleta foi escolhida com base em tons suaves de verde e azul, remetendo a cuidado, saúde e tranquilidade.
+
+<table> <tr> <td align="center"> <div style="width:80px; height:80px; background:#C8E6E2; border-radius:8px;"></div> <br><strong>#C8E6E2</strong> </td> <td align="center"> <div style="width:80px; height:80px; background:#9ED5D1; border-radius:8px;"></div> <br><strong>#9ED5D1</strong> </td> <td align="center"> <div style="width:80px; height:80px; background:#63C1BB; border-radius:8px;"></div> <br><strong>#63C1BB</strong> </td> <td align="center"> <div style="width:80px; height:80px; background:#3A9295; border-radius:8px;"></div> <br><strong>#3A9295</strong> </td> <td align="center"> <div style="width:80px; height:80px; background:#105F68; border-radius:8px;"></div> <br><strong>#105F68</strong> </td> </tr> </table>
+
+✍️ Tipografia
+Para garantir legibilidade e consistência, foi utilizada a família Roboto:
+
+Roboto Bold — Títulos
+     Roboto Regular — Corpo de texto e descrições
+
+🔖 Logo do Projeto
+<img width="250" src="https://github.com/user-attachments/assets/5cd46f2f-8d26-4cee-8da1-9b93c9baa8a2" alt="Logo do Projeto">
+
 
 # 10. Protótipo  
-*(Protótipo funcional no Figma ou outra ferramenta. Colocar o link aqui)*  
+Para representar visualmente o funcionamento do sistema antes da implementação, foi desenvolvido um protótipo navegável no Figma.
+Esse protótipo demonstra as principais telas, fluxos de agendamento e interações planejadas, permitindo validar a experiência do usuário e realizar ajustes antes do desenvolvimento final.
 
----
+👉 Acesse o protótipo no link abaixo: <br>
+<a href="https://www.figma.com/proto/1Le26sngVuPy61TJzUhlfK/TelasLuhan?node-id=670-1431&t=h7rONkitrp9DdYNM-1" target="_blank"><strong>Protótipo no Figma</strong></a>
 
 # 11. Aplicação
+
+Nesta seção apresentamos a versão final da aplicação desenvolvida, permitindo visualizar o sistema em funcionamento. O link abaixo direciona para o ambiente publicado, onde é possível explorar as principais funcionalidades do ERP voltado para a clínica de estética.
+👉 Acessar aplicação:
+<a href="https://projeto-integrador-ashen-omega.vercel.app/index.ht" target="_blank"><strong>ERP Essense Spa</strong></a>
+
+
+
 
 
 
