@@ -1,0 +1,166 @@
+:root {
+  --bs-primary: #00d4d4;
+  --bs-primary-rgb: 0, 212, 212;
+
+}
+
+
+/* :root, [data-bs-theme=light] {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-primary-text-emphasis: #052c65;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-success-text-emphasis: #0a3622;
+    --bs-info-text-emphasis: #055160;
+    --bs-warning-text-emphasis: #664d03;
+    --bs-danger-text-emphasis: #58151c;
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #e2e3e5;
+    --bs-success-bg-subtle: #d1e7dd; */
+
+/* Botões */
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.btn-primary:hover {
+  background-color: #00bbbb !important;
+  border-color: #00bbbb !important;
+}
+
+/* Textos primários */
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+/* Bordas */
+.border-primary {
+  border-color: var(--bs-primary) !important;
+}
+
+/* Badges, pills, etc */
+.nav-pills .nav-link.active {
+  background-color: var(--bs-primary) !important;
+}
+
+
+
+
+/* Carrossel */
+/* Ocultar setas */
+.carousel-control-prev,
+.carousel-control-next {
+    display: none !important;
+}
+
+/* Efeito de movimento na imagem */
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform 8s ease-in-out;
+}
+
+.carousel-item.active img {
+    transform: scale(1.07);
+}
+
+/* Procedimentos */
+/* Hover suave nas imagens dos cards de Procedimentos */
+.card img {
+    transition: transform 0.6s ease, filter 0.4s ease;
+}
+
+.card:hover img {
+    transform: scale(1.08);
+    filter: brightness(1.15);
+}
+
+/* Sobre */
+.imagem > img {
+  transition: transform 0.5s ease;
+}
+
+.imagem:hover > img {
+  transform: scale(1.07);
+}
+
+/* Equipe */
+
+.team-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s;
+}
+
+.team-item:hover {
+  transform: translateY(-6px);
+}
+
+.team-img img {
+  border-bottom: 3px solid #ffffff22;
+}
+
+.team-text h3 {
+  font-size: 1.3rem;
+}
+
+.team-social {
+  background: #5cb1b8;
+  padding: 12px;
+}
+
+.team-social a {
+  color: #fff;
+  margin: 0 8px;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.team-social a:hover {
+  color: #222;
+}
+
+

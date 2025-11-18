@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- Icones -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #63c1bb;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="../img/Logo.png" alt="Logo da Clinica" width="100">
+      </a>
+
+      <!-- Botão Hamburguer -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active text-white" href="../index.html">Página Inicial</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="../procedimentos/index.html">Procedimentos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="../sobre/index.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="../sobreNos/index.html">Sobre Nós</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Páginas</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../galeria/index.html">Galeria</a></li>
+              <li><a class="dropdown-item" href="../equipe/index.html">Equipe</a></li>
+              <li><a class="dropdown-item" href="../404/index.html">404</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="d-flex align-items-center">
+          <!-- Campo de busca -->
+          <form class="d-flex me-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Procurar</button>
+          </form>
+
+          <!-- Menu Usuário -->
+          <!-- Menu Usuário com ícones e hover Bootstrap -->
+          <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown">
+              <img src="../img/gallery-8.jpg" alt="perfil" class="rounded-circle" width="50" height="50">
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-end shadow" style="min-width: 230px;">
+              <li>
+                <h6 class="dropdown-header text-center">Olá, Usuário!</h6>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <i class="bi bi-calendar-check me-2 text-primary"></i>
+                  <span>Meus Agendamentos</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <i class="fas fa-user me-2 text-primary"></i>
+                  <span>Meus Dados</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <i class="bi bi-shield-lock me-2 text-primary"></i>
+                  <span>Alterar Senha</span>
+                </a>
+              </li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li>
+                <a class="dropdown-item d-flex align-items-center text-danger" href="#">
+                  <i class="fas fa-sign-out-alt me-2"></i>
+                  <span>Sair</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fim da Navbar -->
+
+
+  <!-- Carrossel -->
+  <div class="container-fluid px-0">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel"
+      data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../img/Carrossel1.jpg" class="d-block w-100" alt="Clareamento facial">
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px;">
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="../img/Carrossl2.jpg" class="d-block w-100" alt="Spa facial relaxante">
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px;">
+
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../img/Carrossel3.jpg" class="d-block w-100" alt="Tratamento termoterapia estética">
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
+    </div>
+  </div>
+  <!-- Fim do carrossel -->
+
+  <!-- Procedimentos -->
+  <div class="container-fluid bg-light py-5">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <p class="fs-4 text-uppercase text-primary mb-1">Procedimentos</p>
+        <h1 class="display-4 fw-bold">Essense Spa</h1>
+      </div>
+      <div class="row g-4">
+        <!-- CARD 1 -->
+        <div class="col-lg-6 col-md-12 d-flex">
+          <div class="card flex-fill border-0 shadow-sm p-4 rounded-4 d-flex align-items-center">
+            <div class="row w-100 align-items-center">
+              <div class="col-md-4">
+                <img src="../img/services-1.jpg" class="img-fluid rounded-3" alt="Limpeza de pele">
+              </div>
+              <div class="col-md-8">
+                <h4 class="fw-bold mb-2">Limpeza de Pele</h4>
+                <p class="small mb-3">Sua pele respira! Limpeza profunda para desobstruir poros e controlar a
+                  oleosidade,
+                  revelando uma pele mais suave e luminosa.</p>
+                <a href="#" class="btn btn-primary rounded-pill px-4 py-2">Agende seu momento</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 2 -->
+        <div class="col-lg-6 col-md-12 d-flex">
+          <div class="card flex-fill border-0 shadow-sm p-4 rounded-4 d-flex align-items-center">
+            <div class="row w-100 align-items-center">
+              <div class="col-md-4">
+                <img src="../img/services-2.jpg" class="img-fluid rounded-3" alt="Estética facial masculina">
+              </div>
+              <div class="col-md-8">
+                <h4 class="fw-bold mb-2">Estética Facial Masculina</h4>
+                <p class="small mb-3">Menos cansaço, mais presença. Suavize as marcas de estresse e mantenha um visual
+                  descansado e revigorado.</p>
+                <a href="#" class="btn btn-primary rounded-pill px-4 py-2">Agende seu momento</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 3 -->
+        <div class="col-lg-6 col-md-12 d-flex">
+          <div class="card flex-fill border-0 shadow-sm p-4 rounded-4 d-flex align-items-center">
+            <div class="row w-100 align-items-center">
+              <div class="col-md-4">
+                <img src="../img/services-3.jpg" class="img-fluid rounded-3" alt="Botox facial">
+              </div>
+              <div class="col-md-8">
+                <h4 class="fw-bold mb-2">Botox</h4>
+                <p class="small mb-3">Sua expressão mais leve, sem perder a naturalidade. Suavize os sinais do tempo e
+                  mantenha sua identidade.</p>
+                <a href="#" class="btn btn-primary rounded-pill px-4 py-2">Agende seu momento</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 4 -->
+        <div class="col-lg-6 col-md-12 d-flex">
+          <div class="card flex-fill border-0 shadow-sm p-4 rounded-4 d-flex align-items-center">
+            <div class="row w-100 align-items-center">
+              <div class="col-md-4">
+                <img src="../img/services-4.jpg" class="img-fluid rounded-3" alt="Jato de Plasma">
+              </div>
+              <div class="col-md-8">
+                <h4 class="fw-bold mb-2">Jato de Plasma</h4>
+                <p class="small mb-3">Renovação celular acelerada. O Jato de Plasma atua diretamente na pele para um
+                  rejuvenescimento profundo e duradouro.</p>
+                <a href="#" class="btn btn-primary rounded-pill px-4 py-2">Agende seu momento</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center mt-4">
+          <a href="./procedimentos/index.html" class="btn btn-primary rounded-pill px-5 py-3">Mais Procedimentos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim de Procedimentos -->
+
+  <!-- Sobre -->
+  <div class="container-fluid about py-5 bg-light">
+    <div class="container py-5">
+      <div class="row g-5 align-items-center">
+
+        <!-- Coluna Vídeo -->
+        <div class="col-lg-5 position-relative">
+          <div class="imagem position-relative">
+            <img src="../img/about-1.jpg" class="img-fluid rounded shadow" alt="Essense Spa - Ambiente">
+          </div>
+        </div>
+
+        <!-- Coluna Texto -->
+        <div class="col-lg-7">
+          <p class="fs-5 text-uppercase text-primary fw-semibold">Sobre Nós</p>
+          <h1 class="display-5 fw-bold mb-4">Essense Spa: Transforme seu bem-estar em confiança</h1>
+          <p class="mb-4">
+            Nascemos da missão de elevar a sua autoestima e promover um bem-estar integral, equilibrando o
+            que há de mais avançado na estética com um profundo senso de acolhimento.
+          </p>
+          <p class="mb-4">
+            Acreditamos que a verdadeira beleza reside na confiança e no conforto que sentimos em nossa
+            própria pele. Por isso, nosso Spa não é apenas um local de procedimentos; é um santuário de autocuidado,
+            onde cada tratamento é desenhado para respeitar sua individualidade e realçar sua beleza natural.
+          </p>
+          <p class="mb-4">
+            Venha nos visitar e descubra a diferença de ser cuidado por uma equipe que une paixão pela
+            estética, excelência técnica e dedicação ao seu bem-estar. Seu momento de brilhar, de dentro para fora,
+            começa aqui.
+          </p>
+          <a href="./sobre/index.html" class="btn btn-primary rounded-pill py-3 px-5">Explore Mais</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Final do Sobre -->
+  <!-- Agendamento -->
+  <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center text-light" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url('../img/appointment-background.jpg') center/cover no-repeat;">
+    <div class="container py-5">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-6">
+          <div class="p-5 bg-dark bg-opacity-50 rounded-4 shadow">
+
+            <p class="fs-5 text-uppercase text-primary text-center">Entre em Contato</p>
+            <h1 class="display-5 fw-bold text-center mb-4">Marcar Consulta</h1>
+
+            <form id="formAgendamento">
+              <div class="row g-3">
+
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Seu Nome" required>
+                </div>
+
+                <div class="col-md-6">
+                  <input type="tel" class="form-control" placeholder="Seu Celular (WhatsApp)" required>
+                </div>
+
+                <div class="col-md-6">
+                  <select class="form-select" required>
+                    <option disabled selected>Selecione o Procedimento</option>
+                    <option>Botox</option>
+                    <option>Limpeza de Pele</option>
+                    <option>Endolaser</option>
+                    <option>Jato Plasma</option>
+                    <option>Clareamento Íntimo</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6">
+                  <select id="esteticista" class="form-select" required>
+                    <option disabled selected>Selecione a Esteticista</option>
+                    <option value="ana">Ana Souza</option>
+                    <option value="carla">Carla Mendes</option>
+                    <option value="julia">Júlia Rocha</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label small">Escolha a Data</label>
+                  <input type="date" id="data-agendamento" class="form-control" disabled required>
+                </div>
+
+                <div class="col-md-6">
+                  <label class="form-label small">Escolha o Horário</label>
+                  <select id="hora-agendamento" class="form-select" disabled required>
+                    <option disabled selected>Selecione um horário</option>
+                  </select>
+                </div>
+
+                <div class="col-12 mt-3">
+                  <button type="submit" class="btn btn-primary w-100 py-3 fs-5">
+                    Marcar Agora
+                  </button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Contato -->
+  <div class="container-fluid py-5">
+    <div class="container py-5">
+      <div class="row g-4 align-items-center">
+
+        <!-- Informações de Contato -->
+        <div class="col-12">
+          <div class="row g-4">
+
+            <!-- Endereço -->
+            <div class="col-lg-4">
+              <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
+                <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
+                <div>
+                  <h4>Endereço</h4>
+                  <p class="mb-0">Rua Rui Barbosa 853, Jaú - SP, Brasil</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-lg-4">
+              <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
+                <i class="fas fa-envelope fa-2x text-primary me-4"></i>
+                <div>
+                  <h4>Envie um Email</h4>
+                  <p class="mb-0">contato@essensespa.com.br</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Telefone -->
+            <div class="col-lg-4">
+              <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
+                <i class="fa fa-phone-alt fa-2x text-primary me-4"></i>
+                <div>
+                  <h4>Telefone</h4>
+                  <p class="mb-0">(14) 99104-1820</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mapa -->
+        <div class="col-12">
+          <div class="rounded">
+            <iframe class="rounded-top w-100" style="height: 450px; margin-bottom: -6px;"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7352.347591719236!2d-48.5669506!3d-22.2954317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bf6cbdb7c53f2d%3A0x6b14a6c1b5c0b71e!2sJa%C3%BA%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1731452507891!5m2!1spt-BR!2sbr"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <!-- Redes Sociais -->
+          <div class="text-center p-4 rounded-bottom bg-primary">
+            <h4 class="text-white fw-bold mb-3">Siga-nos</h4>
+            <div class="d-flex align-items-center justify-content-center">
+              <a href="#" class="btn btn-light btn-square rounded-circle me-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="btn btn-light btn-square rounded-circle me-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="btn btn-light btn-square rounded-circle me-3"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="btn btn-light btn-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Final do Contato -->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="footer py-5 bg-dark text-light">
+    <div class="container py-4">
+      <div class="row g-5 align-items-start">
+
+        <!-- Coluna 1: Sobre -->
+        <div class="col-md-6 col-lg-4">
+          <h2 class="footer-logo text-white">Essense Spa</h2>
+          <p>
+            Transforme o seu dia em um momento de paz e equilíbrio. Experimente nossos tratamentos que renovam corpo e
+            mente.
+          </p>
+          <div class="social-icons mt-3">
+            <a href="https://www.facebook.com/profile.php?id=61566956321244" target="_blank" class="text-white me-3"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/_essensespa/" target="_blank" class="text-white me-3"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/14991047820" class="text-white" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Serviços -->
+        <div class="col-md-6 col-lg-4">
+          <h4 class="text-white mb-4">Nossos Serviços</h4>
+          <p>
+            Descubra nossos tratamentos de beleza, relaxamento e bem-estar, criados para cuidar de você dos pés à
+            cabeça.
+          </p>
+          <a href="../procedimentos/index.html" class="btn btn-outline-light rounded-pill mt-3 px-4">
+            Ver todos os serviços
+          </a>
+        </div>
+
+        <!-- Coluna 3: Contato -->
+        <div class="col-md-12 col-lg-4">
+          <h4 class="text-white mb-4">Fale Conosco</h4>
+          <p><i class="fas fa-map-marker-alt text-secondary me-2"></i> Rua Rui Barbosa 853, Jaú - SP, Brasil</p>
+          <p><i class="fas fa-envelope text-secondary me-2"></i> contato@essensespa.com.br</p>
+          <p><i class="fas fa-phone text-secondary me-2"></i> (14) 99104-1820</p>
+          <p><i class="fas fa-clock text-secondary me-2"></i> Seg - Sáb: 08:00h - 18:00h</p>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  <!-- Final footer -->
+
+  <!-- Copyright -->
+
+  <div class="container-fluid bg-dark text-light py-4 border-top border-secondary">
+    <div class="container">
+      <div class="row align-items-center text-center text-md-start gy-3">
+
+        <!-- Coluna 1: Direitos -->
+        <div class="col-md-4">
+          <p class="mb-0 small">
+            <i class="fas fa-copyright me-1"></i>
+            <span class="fw-semibold">Essense Spa</span> — Todos os direitos reservados.
+          </p>
+        </div>
+
+        <!-- Coluna 2: Ícones sociais -->
+        <div class="col-md-4">
+          <div class="d-flex justify-content-center justify-content-md-center gap-2">
+            <a href="https://www.facebook.com/profile.php?id=61566956321244" target="_blank"
+              class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center"
+              style="width: 36px; height: 36px;">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="https://www.instagram.com/_essensespa/" target="_blank"
+              class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center"
+              style="width: 36px; height: 36px;">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/14991047820" target="_blank"
+              class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center"
+              style="width: 36px; height: 36px;">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Coluna 3: Créditos -->
+        <div class="col-md-4 text-md-end">
+          <p class="mb-0 small">
+            Projetado por
+            <a href="https://fatecjahu.edu.br/desenvolvimento-de-software-multiplataforma/" target="_blank"
+              class="text-light text-decoration-underline">
+              Alunos de DSM — FATEC Jaú
+            </a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--  Fim Copyright -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
