@@ -17,7 +17,7 @@
   <a href="https://www.linkedin.com/in/tainaravit-santos2025/">Tainara Santos</a>;
   <a href="#">Evellyn</a>;
   <a href="#">Lucas</a>;
-  <a href="#">Aline</a>;
+  <a href="www.linkedin.com/in/aline-canola-antonio-rocha-3a881b369Nome fantasia da URL">Aline Canola Antonio Rocha</a>;
   <a href="#">Luhan</a>.
 </h3>
 
@@ -76,7 +76,9 @@ Responde às perguntas: Como? Com o quê? Onde? Quando?)*
 - Requisito de padrões  
 - Requisitos de interoperabilidade  
 
----
+---
+
+
 
 # 7. Estudo de viabilidade  
 
@@ -165,5 +167,6 @@ O estudo mostrou que o projeto é:
 ---
 
 # 11. Aplicação
+
 
 
