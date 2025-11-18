@@ -252,7 +252,12 @@ O estudo mostrou que o projeto é:
 
 # 8. Regras de negócio (Modelo Canvas)  
 
-<a href="IMGS/ModeloCANVA.jpg" class="image fit"><img src="IMGS/ModeloCANVA.jpg" alt="Modelo de negocio canva"></a>
+Para compreender de forma clara a proposta de valor do ERP Essense SPA e como o sistema se integra ao mercado de estética, desenvolvemos o Modelo de Negócio Canvas.
+Esse quadro permite visualizar, de maneira objetiva, os principais elementos que sustentam o funcionamento do projeto, incluindo público-alvo, proposta de valor, canais, parcerias, estrutura de custos e fontes de receita.
+
+O Canvas abaixo resume os principais pontos estratégicos do sistema, ajudando a alinhar a solução às necessidades reais das clínicas de estética e garantindo coerência entre o produto, o mercado e as operações:
+
+<img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/f89b118f-3713-4f9a-a6d0-c61483c726c3" />
 
 ---
 
@@ -305,6 +310,14 @@ Nesta seção apresentamos a versão final da aplicação hospedada, permitindo 
 
 👉 **Acessar aplicação:**  
 <a href="https://projeto-integrador-ashen-omega.vercel.app/index.html" target="_blank"><strong>ERP Essense SPA</strong></a>
+
+✔️ Considerações Finais
+
+O desenvolvimento do ERP Essense SPA representou uma experiência completa de integração entre análise, design, prototipação e implementação.
+A solução proposta busca facilitar o dia a dia das clínicas de estética, oferecendo agilidade, organização e ferramentas gerenciais que fortalecem a tomada de decisão.
+
+O projeto permanece em evolução, e melhorias futuras poderão ser incorporadas conforme novas necessidades e feedbacks dos usuários surgirem.
+
 
 
 
