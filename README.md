@@ -13,45 +13,49 @@
 
  <h3 align="center">Autores</h3>
 
-<p align="center">
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/c24c1caf-82cc-49a1-8f84-700b133ec2ff" 
+           width="150" 
+           style="border-radius: 12px;" />
+      <br>
+      <strong>Aline C. A. Rocha</strong>
+    </td>
 
-  <!-- Aline -->
-  <div style="display: inline-block; text-align: center; margin: 20px;">
-    <img src="https://github.com/user-attachments/assets/c24c1caf-82cc-49a1-8f84-700b133ec2ff"
-         width="160" height="160" 
-         style="border-radius: 12px; object-fit: cover;" />
-    <br>
-    <a href="https://www.linkedin.com/in/aline-canola-antonio-rocha-3a881b369">
-      Aline C. A. Rocha
-    </a>
-  </div>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/5157d044-3c37-4041-a560-a86fc6525481" 
+           width="150" 
+           style="border-radius: 12px;" />
+      <br>
+      <strong>Evellyn Santana</strong>
+    </td>
 
-  <!-- Evellyn -->
-  <div style="display: inline-block; text-align: center; margin: 20px;">
-    <img src="https://github.com/user-attachments/assets/5157d044-3c37-4041-a560-a86fc6525481"
-         width="160" height="160" 
-         style="border-radius: 12px; object-fit: cover;" />
-    <br>
-    <a href="#">
-      Evellyn Santana
-    </a>
-  </div>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/9bc0f4bc-b4c5-4130-a62c-17d6b213d563" 
+           width="150" 
+           style="border-radius: 12px;" />
+      <br>
+      <strong>Lucas A. Ribeiro</strong>
+    </td>
 
-  <!-- Lucas -->
-  <div style="display: inline-block; text-align: center; margin: 20px;">
-    <img src="https://github.com/user-attachments/assets/9bc0f4bc-b4c5-4130-a62c-17d6b213d563"
-         width="160" height="160" 
-         style="border-radius: 12px; object-fit: cover;" />
-    <br>
-    <a href="#">
-      Lucas A. Ribeiro
-    </a>
-  </div>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/9a7cd450-a2eb-4dd2-805f-c56960aec8c6" 
+           width="150" 
+           style="border-radius: 12px;" />
+      <br>
+      <strong>Luhan</strong>
+    </td>
 
-  <!-- Luhan -->
-  <div style="display: inline-block; text-align: center; margin: 20px;">
-    <img src="https://github.com/user-attachments/assets/9a7cd450-a2eb-4dd2-805f-c56960aec8c6"
-         width="160" hei
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/e7a99a5f-e5f8-427f-9b33-d6b331ccd071" 
+           width="150" 
+           style="border-radius: 12px;" />
+      <br>
+      <strong>Tainara Santos</strong>
+    </td>
+  </tr>
+</table>
 
   
   
@@ -205,6 +209,7 @@ O estudo mostrou que o projeto é:
 ---
 
 # 11. Aplicação
+
 
 
 
