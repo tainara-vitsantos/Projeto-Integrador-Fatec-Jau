@@ -2,66 +2,48 @@
 
 <div align="center" id="inicio">
 
-  # Sistema de Agendamento para Clinica de Estética
-  ### Centro Paula Souza
-  ### Faculdade de Tecnologia de Jahu 
-  ### Curso de Tecnologia em Desenvolvimento de Software Multiplataforma
-  ### Jaú, SP, BR
-  ### Início: 2º Semestre / 2025
+# Sistema de Agendamento para Clinica de Estética  
+### Centro Paula Souza  
+### Faculdade de Tecnologia de Jahu  
+### Curso de Tecnologia em Desenvolvimento de Software Multiplataforma  
+### Jaú, SP, BR  
+### Início: 2º Semestre / 2025
 
-  </div>
+</div>
 
-<h3 align="center">Autores</h3>
+<br>
+
+<h3> align="center">Autores</h3>
 
 <table align="center">
   <tr>
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/c24c1caf-82cc-49a1-8f84-700b133ec2ff" 
-           width="150" 
-           style="border-radius: 12px;" />
-      <br>
+    <td align="center" style="padding: 15px;">
+      <img src="https://github.com/user-attachments/assets/c24c1caf-82cc-49a1-8f84-700b133ec2ff" width="150" style="border-radius: 15px;" /><br>
       <strong>Aline C. A. Rocha</strong>
     </td>
-
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/5157d044-3c37-4041-a560-a86fc6525481" 
-           width="150" 
-           style="border-radius: 12px;" />
-      <br>
+    <td align="center" style="padding: 15px;">
+      <img src="https://github.com/user-attachments/assets/5157d044-3c37-4041-a560-a86fc6525481" width="150" style="border-radius: 15px;" /><br>
       <strong>Evellyn Santana</strong>
     </td>
-
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/9bc0f4bc-b4c5-4130-a62c-17d6b213d563" 
-           width="150" 
-           style="border-radius: 12px;" />
-      <br>
+    <td align="center" style="padding: 15px;">
+      <img src="https://github.com/user-attachments/assets/9bc0f4bc-b4c5-4130-a62c-17d6b213d563" width="150" style="border-radius: 15px;" /><br>
       <strong>Lucas A. Ribeiro</strong>
     </td>
-
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/9a7cd450-a2eb-4dd2-805f-c56960aec8c6" 
-           width="150" 
-           style="border-radius: 12px;" />
-      <br>
+    <td align="center" style="padding: 15px;">
+      <img src="https://github.com/user-attachments/assets/9a7cd450-a2eb-4dd2-805f-c56960aec8c6" width="150" style="border-radius: 15px;" /><br>
       <strong>Luhan</strong>
     </td>
-
-    <td align="center">
-      <img src="https://github.com/user-attachments/assets/e7a99a5f-e5f8-427f-9b33-d6b331ccd071" 
-           width="150" 
-           style="border-radius: 12px;" />
-      <br>
+    <td align="center" style="padding: 15px;">
+      <img src="https://github.com/user-attachments/assets/e7a99a5f-e5f8-427f-9b33-d6b331ccd071" width="150" style="border-radius: 15px;" /><br>
       <strong>Tainara Santos</strong>
     </td>
   </tr>
 </table>
 
-  
-  
-  
-  
-</h3>
+
+
+
+
 
 # Projeto-Integrador-Fatec-Jau
 O projeto tem como objetivo desenvolver um sistema de agendamento e gestão de atendimentos para uma clínica de estética, trazendo mais organização, praticidade e eficiência no relacionamento entre clientes e esteticistas.
@@ -209,6 +191,7 @@ O estudo mostrou que o projeto é:
 ---
 
 # 11. Aplicação
+
 
 
 
