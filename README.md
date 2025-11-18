@@ -1,8 +1,8 @@
-<p align="center" style="font-size:28px;"><strong><em>Documentação do Projeto Interdiciplinar</em></strong></p>
+<p align="center" style="font-size:28px;"><strong><em>Documentação do Projeto Interdisciplinar</em></strong></p>
 
 <div align="center" id="inicio">
 
-# ERP Essense SPA - Sistema de Agendamento para Clinica de Estética  
+# ERP Essense SPA - Sistema de Agendamento para Clínica de Estética  
 ### Centro Paula Souza  
 ### Faculdade de Tecnologia de Jahu  
 ### Curso de Tecnologia em Desenvolvimento de Software Multiplataforma  
@@ -31,7 +31,7 @@
     </td>
     <td align="center" style="padding: 15px;">
       <img src="https://github.com/user-attachments/assets/9bc0f4bc-b4c5-4130-a62c-17d6b213d563" width="150" style="border-radius: 15px;" /><br>
-      <strong>
+          <strong>
         <a href="#">Lucas A. Ribeiro</a>
       </strong>
     </td>
@@ -51,13 +51,14 @@
   </tr>
 </table>
 
-# Projeto-Interdiciplinar-Fatec-Jau
-Projeto desenvolvido com o apoio do conteúdo adquirido nas diciplicas do 1º Semestre do curso de DSM - Fatec Jahu, especificamente nas diciplinas chaves: 
-- Design Digital
-- Desing WEB
-- Engenharia de Software
+# Projeto Interdisciplinar - Fatec Jahu
+Projeto desenvolvido com apoio dos conteúdos das disciplinas do 1º Semestre do curso de DSM – Fatec Jahu, especificamente:
 
-# *Documentação do Projeto Integrador (PI)*  
+- Design Digital  
+- Design Web  
+- Engenharia de Software  
+
+# *Documentação do Projeto Interdisciplinar (PI)*  
 
 <details>
   <summary><strong>Sumário</strong></summary>
@@ -66,7 +67,7 @@ Projeto desenvolvido com o apoio do conteúdo adquirido nas diciplicas do 1º Se
   - [Objetivos](#-objetivos)
   - [Metodologia](#-metodologia)
 - [2. Requisitos](#2-requisitos)
-  - [Requisitos funcionais](-requisitos-funcionais)
+  - [Requisitos funcionais](#-requisitos-funcionais)
   - [Requisitos não funcionais](#-requisitos-não-funcionais)
 - [3. Modelo de casos de uso](#3-modelo-de-casos-de-uso)
 - [4. Modelo do banco de dados](#4-modelo-do-banco-de-dados)
@@ -83,101 +84,107 @@ Projeto desenvolvido com o apoio do conteúdo adquirido nas diciplicas do 1º Se
 ---
 
 # 1. Introdução  
- O mercado de estética no Brasil tem mostrado um crescimento expressivo e reseliência notável.
- A crescenta demanda por serviços estéticos e profissionalização no setor exigem que as clientes adotem ferramentas de gestão mais sofisticados. 
+O mercado de estética no Brasil tem apresentado crescimento expressivo e resiliência.  
+A crescente demanda por serviços estéticos e a profissionalização do setor exigem que as clínicas adotem ferramentas de gestão cada vez mais eficientes e integradas.
 
 ## 🎯 Objetivos  
 
-Objetivo Geral:
-Desenvolver um sistema ERP completo e intuitivo para otimizar a gestão de clínicas de estética de pequeno e médio porte.
+**Objetivo Geral:**  
+Desenvolver um sistema ERP intuitivo para otimizar a gestão de clínicas de estética de pequeno e médio porte.
 
-Objetivos Especificos:
-- Centralizar gestão de agendamentos
-- Automatizar Controle Financeiro
-- Automatizar Controle de Estoque
-- Ferramenta CRM
-- Relatórios e Dashboard gerenciais.
+**Objetivos Específicos:**  
+- Centralizar a gestão de agendamentos  
+- Automatizar o controle financeiro  
+- Automatizar o controle de estoque  
+- Oferecer ferramenta CRM integrada  
+- Gerar relatórios e dashboards gerenciais  
+
+---
 
 ## 🛠️ Metodologia  
-Para o desenvolvimento do Sistema de Agendamento para Clínica de Estética, utilizamos uma combinação de métodos, ferramentas e tecnologias que permitiram organizar o trabalho da equipe e garantir um fluxo claro de construção do projeto.
 
-🔹 Como trabalhamos (Métodos e Processo)
+Para o desenvolvimento do sistema, utilizamos métodos, ferramentas e tecnologias que facilitaram a organização do time e a construção das funcionalidades.
 
-- Aplicamos o modelo Ágil (Scrum simplificado) para organizar as tarefas.
-- Realizamos reuniões frequentes no grupo para alinhamento de atividades.
-- Criamos sprints semanais com metas específicas para cada integrante.
-- Utilizamos Quadro Kanban no GitHub Projects para acompanhar progresso e pendências.
-- Registramos decisões e mudanças na aba Issues do GitHub.
+### 🔹 Como trabalhamos (Métodos e Processo)
 
-🔹 Com o quê desenvolvemos (Tecnologias e Ferramentas)
+- Aplicação do modelo ágil (Scrum simplificado)  
+- Reuniões frequentes de alinhamento  
+- Sprints semanais com metas individuais  
+- Kanban no GitHub Projects  
+- Registro de decisões via Issues  
 
-- Frontend: HTML5, CSS3 e JavaScript - Vide Código
-- Design e prototipação: Figma (criação de telas, fluxos e padronização visual).
-  <a herf= "https://www.figma.com/proto/1Le26sngVuPy61TJzUhlfK/TelasLuhan?node-id=670-1431&t=h7rONkitrp9DdYNM-1">Link Protótipo Figma</a>
-- Controle de versão: Git e GitHub (branches, commits e pull requests).
-- Documentação: Markdown e GitHub README.
-- Comunicação da equipe: WhatsApp e reuniões presenciais/online.
-- Apresentação: Power Point apresentação final.
+### 🔹 Com o quê desenvolvemos (Tecnologias e Ferramentas)
 
-🔹 Onde e Quando aplicamos
-   
-   O desenvolvimento foi realizado de forma híbrida (remoto e presencial).
-   As atividades foram distribuídas ao longo do 2º semestre de 2025.
-   As revisões e ajustes finais foram feitos nos últimos encontros do grupo.
+- **Frontend:** HTML5, CSS3 e JavaScript  
+- **Design e prototipação:** Figma  
+  - <a href="https://www.figma.com/proto/1Le26sngVuPy61TJzUhlfK/TelasLuhan?node-id=670-1431&t=h7rONkitrp9DdYNM-1">Protótipo Figma</a>  
+- **Versionamento:** Git e GitHub  
+- **Documentação:** Markdown  
+- **Comunicação:** WhatsApp e reuniões presenciais/online  
+- **Apresentação:** PowerPoint  
+
+### 🔹 Onde e quando aplicamos
+
+O desenvolvimento ocorreu de forma híbrida durante o 2º semestre de 2025, com ajustes finais realizados nos últimos encontros da equipe.
 
 ---
 
 # 2. Requisitos  
 
-## ⚙️ Requisitos funcionais  <br>
-🔷 Requisitos de Agendamento <br>
- RF01 Cancelar e remarcar agendamento pelo cliente <br>
- RF02 Cancelar e remarcar agendamento pelo profissional <br>
- RF03 Controlar agenda individual do esteticista <br>
- RF04 Enviar formulário de agendamento <br>
+## ⚙️ Requisitos Funcionais <br> 
 
-🔷 Requisitos de Preferência e Seleção <br>
- RF05 Escolher esteticista durante o agendamento <br>
+### 🔷 Requisitos de Agendamento <br> 
+- **RF01** Cancelar e remarcar agendamento pelo cliente <br> 
+- **RF02** Cancelar e remarcar agendamento pelo profissional <br> 
+- **RF03** Controlar agenda individual do esteticista <br> 
+- **RF04** Enviar formulário de agendamento  <br>
 
-🔷 Requisitos de Relatórios <br>
- RF06 Emitir relatórios gerenciais <br>
- RF07 Emitir relatatórios de clientes <br>
+### 🔷 Requisitos de Preferência e Seleção  <br>
+- **RF05** Escolher esteticista durante o agendamento  <br>
 
-🔷 Requisitos de Comunicação e Notificações <br>
- RF08 Enviar notificações e lembretes automáticos <br>
+### 🔷 Requisitos de Relatórios  <br>
+- **RF06** Emitir relatórios gerenciais <br>  
+- **RF07** Emitir relatórios de clientes <br> 
 
-🔷 Requisitos de Identificação do Usuário <br>
- RF09 Realizar login <br>
- RF10 – Realizar cadastro <br>
+### 🔷 Requisitos de Comunicação <br> 
+- **RF08** Enviar notificações e lembretes <br> 
 
-## 🧩 Requisitos não funcionais <br>  
+### 🔷 Requisitos de Identificação <br>  
+- **RF09** Realizar login  <br>
+- **RF10** Realizar cadastro <br> 
 
-🔷 Requisitos de Produto: Características diretamente ligadas à experiência de uso e desempenho. <br>
- RNF01 Garantir autenticação segura <br>
- RNF02 Assegurar alto desempenho do sistema <br>
- RNF03 Permitir personalizar a interface conforme necessidade da clínica <br>
- RNF04 Garantir usabilidade intuitiva <br>
- RNF05 Proporcionar boa experiência ao usuário <br>
- RNF06 Assegurar responsividade em diferentes dispositivos <br>
+---
 
-🔷 Requisitos de Confiabilidade: Segurança, proteção e integridade de dados. <br>
- RNF07 Proteger dados sensíveis dos usuários <br>
- RNF08 Implementar lembretes automáticos de agendamentos <br>
- RNF09 Manter histórico confiável da agenda do esteticista <br>
- RNF10 Garantir restrições de acesso conforme perfil de usuário <br>
+## 🧩 Requisitos Não Funcionais  <br>
 
-🔷 Requisitos de Organização: Alinhamento com necessidades administrativas e operacionais. <br>
- RNF11 Permitir autonomia ao administrador para gerenciar configurações do sistema <br>
- RNF12 Oferecer controle financeiro integrado <br>
- RNF13 Registrar cancelamentos realizados pelo cliente <br>
- RNF14 Registrar cancelamentos realizados pelo esteticista <br>
+### 🔷 Requisitos de Produto  <br> 
+- **RNF01** Garantir autenticação segura  <br>
+- **RNF02** Assegurar alto desempenho  <br>
+- **RNF03** Permitir personalização da interface <br> 
+- **RNF04** Garantir usabilidade  <br>
+- **RNF05** Proporcionar boa experiência do usuário  <br>
+- **RNF06** Garantir responsividade  <br>
 
-🔷 Requisitos de Implementação: Aspectos técnicos necessários para desenvolvimento. <br>
- RNF15 Implementar mecanismo para pré-pagamento de serviços <br>
- RNF16 Implementar seleção de esteticista pelo cliente no agendamento <br>
+### 🔷 Requisitos de Confiabilidade  <br>
+- **RNF07** Proteger dados sensíveis  <br>
+- **RNF08** Implementar lembretes automáticos  <br>
+- **RNF09** Manter histórico da agenda  <br>
+- **RNF10** Garantir restrições de acesso  <br>
 
-🔷 Requisitos de Interoperabilidade: Integração com outros serviços e ferramentas. <br>
- RFN17 Habilitar marketing automatizado integrado (MKT Automation) <br>
+### 🔷 Requisitos de Organização  <br>
+- **RNF11** Oferecer autonomia ao administrador  <br>
+- **RNF12** Disponibilizar controle financeiro  <br>
+- **RNF13** Registrar cancelamentos do cliente  <br>
+- **RNF14** Registrar cancelamentos do esteticista  <br>
+
+### 🔷 Requisitos de Implementação  <br>
+- **RNF15** Implementar pré-pagamento  <br>
+- **RNF16** Implementar seleção de esteticista <br> 
+
+### 🔷 Requisitos de Interoperabilidade  <br>
+- **RNF17** Habilitar marketing automatizado <br> 
+
+---
 
 # 7. Estudo de viabilidade  
 
@@ -253,33 +260,52 @@ O estudo mostrou que o projeto é:
 A identidade visual do projeto foi desenvolvida para transmitir leveza, bem-estar e confiança, alinhada ao contexto de uma clínica de estética.
 A seguir estão os principais elementos que compõem o design do sistema:
 
-🎨 Paleta de Cores:
-A paleta foi escolhida com base em tons suaves de verde e azul, remetendo a cuidado, saúde e tranquilidade.
+🎨 **Paleta de Cores**
 
-<table> <tr> <td align="center" bgcolor="#C8E6E2" width="80" height="80"></td> <td align="center" bgcolor="#9ED5D1" width="80" height="80"></td> <td align="center" bgcolor="#63C1BB" width="80" height="80"></td> <td align="center" bgcolor="#3A9295" width="80" height="80"></td> <td align="center" bgcolor="#105F68" width="80" height="80"></td> </tr> <tr> <td align="center"><strong>#C8E6E2</strong></td> <td align="center"><strong>#9ED5D1</strong></td> <td align="center"><strong>#63C1BB</strong></td> <td align="center"><strong>#3A9295</strong></td> <td align="center"><strong>#105F68</strong></td> </tr> </table>
+A paleta transmite leveza, bem-estar e equilíbrio:
 
-✍️ Tipografia <br>
-Para garantir legibilidade e consistência, foi utilizada a família Roboto:
+<table>
+  <tr>
+    <td bgcolor="#C8E6E2" width="80" height="80"></td>
+    <td bgcolor="#9ED5D1" width="80" height="80"></td>
+    <td bgcolor="#63C1BB" width="80" height="80"></td>
+    <td bgcolor="#3A9295" width="80" height="80"></td>
+    <td bgcolor="#105F68" width="80" height="80"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>#C8E6E2</strong></td>
+    <td align="center"><strong>#9ED5D1</strong></td>
+    <td align="center"><strong>#63C1BB</strong></td>
+    <td align="center"><strong>#3A9295</strong></td>
+    <td align="center"><strong>#105F68</strong></td>
+  </tr>
+</table>
 
-Roboto Bold — Títulos
-     Roboto Regular — Corpo de texto e descrições
+✍️ **Tipografia**  
+- Roboto Bold — Títulos  
+- Roboto Regular — Corpo de texto  
 
-🔖 Logo do Projeto <br>
-<img width="250" src="https://github.com/user-attachments/assets/5cd46f2f-8d26-4cee-8da1-9b93c9baa8a2" alt="Logo do Projeto">
+🔖 **Logo**  
+<img width="250" src="https://github.com/user-attachments/assets/5cd46f2f-8d26-4cee-8da1-9b93c9baa8a2">
 
+---
 
 # 10. Protótipo  
-Para representar visualmente o funcionamento do sistema antes da implementação, foi desenvolvido um protótipo navegável no Figma.
-Esse protótipo demonstra as principais telas, fluxos de agendamento e interações planejadas, permitindo validar a experiência do usuário e realizar ajustes antes do desenvolvimento final.
 
-👉 Acesse o protótipo no link abaixo: <br>
+Antes do desenvolvimento, as telas foram planejadas e testadas através de um protótipo navegável no Figma.
+
+👉 **Acesse o protótipo:**  
 <a href="https://www.figma.com/proto/1Le26sngVuPy61TJzUhlfK/TelasLuhan?node-id=670-1431&t=h7rONkitrp9DdYNM-1" target="_blank"><strong>Protótipo no Figma</strong></a>
 
-# 11. Aplicação
+---
 
-Nesta seção apresentamos a versão final da aplicação desenvolvida, permitindo visualizar o sistema em funcionamento. O link abaixo direciona para o ambiente publicado, onde é possível explorar as principais funcionalidades do ERP voltado para a clínica de estética.
-👉 Acessar aplicação:
-<a href="https://projeto-integrador-ashen-omega.vercel.app/index.ht" target="_blank"><strong>ERP Essense Spa</strong></a>
+# 11. Aplicação  
+
+Nesta seção apresentamos a versão final da aplicação hospedada, permitindo navegar e visualizar o ERP funcionando.
+
+👉 **Acessar aplicação:**  
+<a href="https://projeto-integrador-ashen-omega.vercel.app/index.html" target="_blank"><strong>ERP Essense SPA</strong></a>
+
 
 
 
