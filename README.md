@@ -256,15 +256,15 @@ A seguir estão os principais elementos que compõem o design do sistema:
 🎨 Paleta de Cores:
 A paleta foi escolhida com base em tons suaves de verde e azul, remetendo a cuidado, saúde e tranquilidade.
 
-<table> <tr> <td align="center"> <div style="width:80px; height:80px; background:#C8E6E2; border-radius:8px;"></div> <br><strong>#C8E6E2</strong> </td> <td align="center"> <div style="width:80px; height:80px; background:#9ED5D1; border-radius:8px;"></div> <br><strong>#9ED5D1</strong> </td> <td align="center"> <div style="width:80px; height:80px; background:#63C1BB; border-radius:8px;"></div> <br><strong>#63C1BB</strong> </td> <td align="center"> <div style="width:80px; height:80px; background:#3A9295; border-radius:8px;"></div> <br><strong>#3A9295</strong> </td> <td align="center"> <div style="width:80px; height:80px; background:#105F68; border-radius:8px;"></div> <br><strong>#105F68</strong> </td> </tr> </table>
+<table> <tr> <td align="center" bgcolor="#C8E6E2" width="80" height="80"></td> <td align="center" bgcolor="#9ED5D1" width="80" height="80"></td> <td align="center" bgcolor="#63C1BB" width="80" height="80"></td> <td align="center" bgcolor="#3A9295" width="80" height="80"></td> <td align="center" bgcolor="#105F68" width="80" height="80"></td> </tr> <tr> <td align="center"><strong>#C8E6E2</strong></td> <td align="center"><strong>#9ED5D1</strong></td> <td align="center"><strong>#63C1BB</strong></td> <td align="center"><strong>#3A9295</strong></td> <td align="center"><strong>#105F68</strong></td> </tr> </table>
 
-✍️ Tipografia
+✍️ Tipografia <br>
 Para garantir legibilidade e consistência, foi utilizada a família Roboto:
 
 Roboto Bold — Títulos
      Roboto Regular — Corpo de texto e descrições
 
-🔖 Logo do Projeto
+🔖 Logo do Projeto <br>
 <img width="250" src="https://github.com/user-attachments/assets/5cd46f2f-8d26-4cee-8da1-9b93c9baa8a2" alt="Logo do Projeto">
 
 
@@ -280,6 +280,7 @@ Esse protótipo demonstra as principais telas, fluxos de agendamento e interaç�
 Nesta seção apresentamos a versão final da aplicação desenvolvida, permitindo visualizar o sistema em funcionamento. O link abaixo direciona para o ambiente publicado, onde é possível explorar as principais funcionalidades do ERP voltado para a clínica de estética.
 👉 Acessar aplicação:
 <a href="https://projeto-integrador-ashen-omega.vercel.app/index.ht" target="_blank"><strong>ERP Essense Spa</strong></a>
+
 
 
 
