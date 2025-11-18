@@ -105,7 +105,7 @@ Desenvolver um sistema ERP intuitivo para otimizar a gestão de clínicas de est
 
 Para o desenvolvimento do sistema, utilizamos métodos, ferramentas e tecnologias que facilitaram a organização do time e a construção das funcionalidades.
 
-### 🔹 Como trabalhamos (Métodos e Processo)
+### 🔹 Métodos e Processo
 
 - Aplicação do modelo ágil (Scrum simplificado)  
 - Reuniões frequentes de alinhamento  
@@ -113,7 +113,7 @@ Para o desenvolvimento do sistema, utilizamos métodos, ferramentas e tecnologia
 - Kanban no GitHub Projects  
 - Registro de decisões via Issues  
 
-### 🔹 Com o quê desenvolvemos (Tecnologias e Ferramentas)
+### 🔹 Tecnologias e Ferramentas
 
 - **Frontend:** HTML5, CSS3 e JavaScript  
 - **Design e prototipação:** Figma  
@@ -305,6 +305,7 @@ Nesta seção apresentamos a versão final da aplicação hospedada, permitindo 
 
 👉 **Acessar aplicação:**  
 <a href="https://projeto-integrador-ashen-omega.vercel.app/index.html" target="_blank"><strong>ERP Essense SPA</strong></a>
+
 
 
 
