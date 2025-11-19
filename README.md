@@ -84,34 +84,42 @@ Projeto desenvolvido com apoio dos conteúdos das disciplinas do 1º Semestre do
 ---
 
 # 1. Introdução  
-O mercado de estética no Brasil tem apresentado crescimento expressivo e resiliência.  
-A crescente demanda por serviços estéticos e a profissionalização do setor exigem que as clínicas adotem ferramentas de gestão cada vez mais eficientes e integradas.
+A criação do sistema de gestão para a Essense Spa surgiu da necessidade de modernizar e otimizar os processos internos da clínica, garantindo mais organização, agilidade e qualidade no atendimento. No cotidiano de uma clínica de estética, é comum que agendamentos, históricos de procedimentos, registros financeiros e controle de produtos sejam realizados de forma manual ou em sistemas separados. Essa realidade gera falhas de comunicação, retrabalho e perda de informações essenciais para uma boa experiência do cliente. A partir de uma análise interna e de conversas com profissionais da área, identificou-se que mais de 80% das clínicas enfrentam dificuldades na gestão de horários, acompanhamento de clientes e controle de estoque — fatores que impactam diretamente na produtividade e na fidelização. Da mesma forma, foi constatado que a centralização desses processos em um sistema digital seria altamente benéfica tanto para os colaboradores quanto para os gestores. Com base nesses resultados, o sistema de gestão Essense Spa foi idealizado como uma solução completa para integrar e digitalizar os principais processos da clínica. O objetivo é proporcionar um sistema intuitivo, eficiente e seguro, capaz de melhorar o fluxo de trabalho, reduzir erros, facilitar a comunicação e elevar o padrão de atendimento, refletindo os valores de cuidado, bem-estar e excelência da Essense Spa. 
+
+ 
 
 ## 🎯 Objetivos  
 
 **Objetivo Geral:**  
-Desenvolver um sistema ERP intuitivo para otimizar a gestão de clínicas de estética de pequeno e médio porte.
+O sistema de gestão Essense Spa tem como objetivo otimizar os processos administrativos e operacionais da clínica de estética, garantindo maior organização, eficiência e qualidade no atendimento. Por meio de um sistema digital seguro e intuitivo, busca-se centralizar informações, automatizar rotinas e oferecer suporte à tomada de decisões, elevando o padrão de serviço oferecido aos clientes e facilitando o trabalho diário dos profissionais. 
 
 **Objetivos Específicos:**  
-- Centralizar a gestão de agendamentos  
-- Automatizar o controle financeiro  
-- Automatizar o controle de estoque  
-- Oferecer ferramenta CRM integrada  
-- Gerar relatórios e dashboards gerenciais  
+- Otimizar o Agendamento de Procedimentos: 
+Desenvolver um sistema integrado de agendamentos que permita organizar horários, evitar conflitos, reduzir atrasos e facilitar a visualização da agenda dos profissionais.   
+- Facilitar o Controle de Clientes e Histórico de Atendimentos: 
+Criar um módulo para registrar informações completas dos clientes, incluindo histórico de procedimentos, preferências e observações, permitindo um atendimento mais personalizado e eficiente.  
+- Gerenciar Estoque e Produtos Utilizados: 
+Implementar funcionalidades para monitorar níveis de estoque, controlar entradas e saídas de produtos e gerar alertas de reposição, evitando faltas e desperdícios. 
+- Automatizar Processos Financeiros: 
+Oferecer ferramentas para registrar pagamentos, controlar contas, emitir relatórios financeiros e acompanhar o faturamento, contribuindo para uma gestão mais profissional e organizada. 
+- Automatizar Processos Financeiros: 
+Oferecer ferramentas para registrar pagamentos, controlar contas, emitir relatórios financeiros e acompanhar o faturamento, contribuindo para uma gestão mais profissional e organizada.
+- Aprimorar a Experiência do Cliente: 
+Construir um sistema que contribua para um atendimento mais rápido, organizado e personalizado, aumentando a satisfação, fidelização e percepção de qualidade dos serviços prestados.  
 
 ---
 
 ## 🛠️ Metodologia  
 
-Para o desenvolvimento do sistema, utilizamos métodos, ferramentas e tecnologias que facilitaram a organização do time e a construção das funcionalidades.
+Para o desenvolvimento do sistema Essense Spa, foram adotados métodos, ferramentas e tecnologias que garantiram organização, colaboração eficiente e agilidade na construção das funcionalidades.
 
 ### 🔹 Métodos e Processo
 
-- Aplicação do modelo ágil (Scrum simplificado)  
-- Reuniões frequentes de alinhamento  
-- Sprints semanais com metas individuais  
-- Kanban no GitHub Projects  
-- Registro de decisões via Issues  
+- Aplicação de um modelo ágil baseado no Scrum (versão simplificada)  
+- Reuniões frequentes para alinhamento e definição de prioridades 
+- Sprints semanais com metas individuais e coletivas  
+- Controle de tarefas utilizando Trello, organizado em listas no estilo Kanban  
+- Registro de decisões e histórico de desenvolvimento por meio de Issues 
 
 ### 🔹 Tecnologias e Ferramentas
 
@@ -125,7 +133,7 @@ Para o desenvolvimento do sistema, utilizamos métodos, ferramentas e tecnologia
 
 ### 🔹 Onde e quando aplicamos
 
-O desenvolvimento ocorreu de forma híbrida durante o 2º semestre de 2025, com ajustes finais realizados nos últimos encontros da equipe.
+O desenvolvimento do sistema ocorreu de forma híbrida, combinando encontros presenciais e atividades remotas. O projeto foi desenvolvido ao longo do 2º semestre de 2025, com ajustes finais realizados nos últimos encontros da equipe.
 
 ---
 
