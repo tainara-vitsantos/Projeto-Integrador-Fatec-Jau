@@ -172,7 +172,7 @@ desktop e mobile.
 # 7. Estudo de viabilidade  
 
 ## Viabilidade Técnica:
-  A análise sobre a viabilidade técnica do sistema ERP mostrou que sua criação e funcionamento é possível com os recursos disponíveis. O time de desenvolvimento possui e está evoluindo em níveis de programação, gerenciamento e conhecimento técnico nos recursos necessários. A infraestrutura do projeto permite fácil integração e manuseio por parte do usuário.
+  A análise sobre a viabilidade técnica do sistema de gestão mostrou que sua criação e funcionamento é possível com os recursos disponíveis. O time de desenvolvimento possui e está evoluindo em níveis de programação, gerenciamento e conhecimento técnico nos recursos necessários. A infraestrutura do projeto permite fácil integração e manuseio por parte do usuário.
 
 ## Viabilidade Operacional:
 Fluxo operacional:
@@ -203,7 +203,7 @@ Modelos de receita possíveis:
 -	SaaS: a clínica paga valor mensal de R$ 149,90. 
 
 Exemplo de retorno no modelo SaaS:
-Se 10 clínicas assinarem o sistema por R$ 149,900/mês, o faturamento será de R$ 1.499,00/mês.
+Se 10 clínicas assinarem o sistema por R$ 149,90/mês, o faturamento será de R$ 1.499,00/mês.
 Com isso, o investimento inicial pode ser recuperado em 7 meses.
 
 Conclusão financeira:
@@ -231,18 +231,17 @@ O estudo mostrou que o projeto é:
 -	Financeiramente sustentável: com possibilidade de retorno rápido no modelo SaaS.
 
 
----
 
 # 8. Regras de negócio (Modelo Canvas)  
 
-Para compreender de forma clara a proposta de valor do ERP Essense SPA e como o sistema se integra ao mercado de estética, desenvolvemos o Modelo de Negócio Canvas.
+Para compreender de forma clara a proposta de valor do Sistema de Gestão, Essense SPA e como o sistema se integra ao mercado de estética, desenvolvemos o Modelo de Negócio Canvas.
 Esse quadro permite visualizar, de maneira objetiva, os principais elementos que sustentam o funcionamento do projeto, incluindo público-alvo, proposta de valor, canais, parcerias, estrutura de custos e fontes de receita.
 
 O Canvas abaixo resume os principais pontos estratégicos do sistema, ajudando a alinhar a solução às necessidades reais das clínicas de estética e garantindo coerência entre o produto, o mercado e as operações:
 
 <img width="1600" height="1131" alt="image" src="https://github.com/user-attachments/assets/f89b118f-3713-4f9a-a6d0-c61483c726c3" />
 
----
+
 
 # 9. Design
 A identidade visual do projeto foi desenvolvida para transmitir leveza, bem-estar e confiança, alinhada ao contexto de uma clínica de estética.
@@ -269,34 +268,33 @@ A paleta transmite leveza, bem-estar e equilíbrio:
   </tr>
 </table>
 
-✍️ **Tipografia**  
+ **Tipografia**  
 - Roboto Bold — Títulos  
 - Roboto Regular — Corpo de texto  
 
-🔖 **Logo**  
+ **Logo**  
 <img width="250" src="https://github.com/user-attachments/assets/5cd46f2f-8d26-4cee-8da1-9b93c9baa8a2">
 
----
+
 
 # 10. Protótipo  
 
 Antes do desenvolvimento, as telas foram planejadas e testadas através de um protótipo navegável no Figma.
 
-👉 **Acesse o protótipo:**  
+**Acesse o protótipo:**  
 <a href="https://www.figma.com/proto/1Le26sngVuPy61TJzUhlfK/TelasLuhan?node-id=670-1431&t=h7rONkitrp9DdYNM-1" target="_blank"><strong>Protótipo no Figma</strong></a>
 
----
 
 # 11. Aplicação  
 
 Nesta seção apresentamos a versão final da aplicação hospedada, permitindo navegar e visualizar o ERP funcionando.
 
-👉 **Acessar aplicação:**  
-<a href="https://projeto-integrador-ashen-omega.vercel.app/index.html" target="_blank"><strong>ERP Essense SPA</strong></a>
+**Acessar aplicação:**  
+<a href="https://projeto-integrador-ashen-omega.vercel.app/index.html" target="_blank"><strong>Sistema de Gestão: Essense SPA</strong></a>
 
-✔️ Considerações Finais
+## Considerações Finais
 
-O desenvolvimento do ERP Essense SPA representou uma experiência completa de integração entre análise, design, prototipação e implementação.
+O desenvolvimento do Sistema de Gestão: Essense SPA representou uma experiência completa de integração entre análise, design, prototipação e implementação.
 A solução proposta busca facilitar o dia a dia das clínicas de estética, oferecendo agilidade, organização e ferramentas gerenciais que fortalecem a tomada de decisão.
 
 O projeto permanece em evolução, e melhorias futuras poderão ser incorporadas conforme novas necessidades e feedbacks dos usuários surgirem.
