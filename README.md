@@ -17,11 +17,11 @@
 
 <h3 align="center">
   <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" align="center" width="35"></a> &nbsp;
-  <a href="https://www.linkedin.com/in/joaosurita/">Tainara Santos</a>;
-  <a href="https://www.linkedin.com/in/brunoobrunelli/">Aline Rocha</a>;
-  <a href="https://www.linkedin.com/in/eduardo-petarnella-gabri-18986b353/">Evellyn Santana</a>.
-   <a href="https://www.linkedin.com/in/eduardo-petarnella-gabri-18986b353/">Lucas Ribeiro</a>.
-    <a href="https://www.linkedin.com/in/eduardo-petarnella-gabri-18986b353/">Luhan De Paula</a>.
+  <a href="https://www.linkedin.com/in/tainaravit-santos2025/" target="_blank" >Tainara Santos</a>;
+  <a href="https://www.linkedin.com/in/aline-canola-antonio-rocha-3a881b369/" target="_blank">Aline C. A. Rocha</a>;
+  <a href="https://www.linkedin.com/in/evellyn-santana-a09273287/" target="_blank" >Evellyn Santana</a>.
+   <a href="#">Lucas Ribeiro</a>.
+    <a href="#">Luhan De Paula</a>.
 </h3>
 
 # Projeto Interdisciplinar - Fatec Jahu
@@ -61,7 +61,7 @@ A criação do sistema de gestão para a Essense Spa surgiu da necessidade de mo
 
  
 
-## 🎯 Objetivos  
+## Objetivos  
 
 **Objetivo Geral:**  
 O sistema de gestão Essense Spa tem como objetivo otimizar os processos administrativos e operacionais da clínica de estética, garantindo maior organização, eficiência e qualidade no atendimento. Por meio de um sistema digital seguro e intuitivo, busca-se centralizar informações, automatizar rotinas e oferecer suporte à tomada de decisões, elevando o padrão de serviço oferecido aos clientes e facilitando o trabalho diário dos profissionais. 
@@ -80,7 +80,7 @@ Oferecer ferramentas para registrar pagamentos, controlar contas, emitir relató
 - Aprimorar a Experiência do Cliente: 
 Construir um sistema que contribua para um atendimento mais rápido, organizado e personalizado, aumentando a satisfação, fidelização e percepção de qualidade dos serviços prestados.  
 
----
+
 
 ## Metodologia  
 
@@ -108,7 +108,6 @@ Para o desenvolvimento do sistema Essense Spa, foram adotados métodos, ferramen
 
 O desenvolvimento do sistema ocorreu de forma híbrida, combinando encontros presenciais e atividades remotas. O projeto foi desenvolvido ao longo do 2º semestre de 2025, com ajustes finais realizados nos últimos encontros da equipe.
 
----
 
 # 2. Requisitos  
 
