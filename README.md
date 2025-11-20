@@ -247,7 +247,7 @@ O Canvas abaixo resume os principais pontos estratégicos do sistema, ajudando a
 A identidade visual do projeto foi desenvolvida para transmitir leveza, bem-estar e confiança, alinhada ao contexto de uma clínica de estética.
 A seguir estão os principais elementos que compõem o design do sistema:
 
-🎨 **Paleta de Cores**
+**Paleta de Cores**
 
 A paleta transmite leveza, bem-estar e equilíbrio:
 
