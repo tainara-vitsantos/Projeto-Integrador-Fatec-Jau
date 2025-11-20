@@ -20,8 +20,8 @@
   <a href="https://www.linkedin.com/in/tainaravit-santos2025/" target="_blank" >Tainara Santos</a>;
   <a href="https://www.linkedin.com/in/aline-canola-antonio-rocha-3a881b369/" target="_blank">Aline C. A. Rocha</a>;
   <a href="https://www.linkedin.com/in/evellyn-santana-a09273287/" target="_blank" >Evellyn Santana</a>.
-   <a href="#">Lucas Ribeiro</a>.
-    <a href="#">Luhan De Paula</a>.
+   <a href="https://www.linkedin.com/in/luhan-de-paula-ribeiro-23b019315">Lucas Ribeiro</a>.
+    <a href="https://www.linkedin.com/in/lucas-ribeiro-926785246/">Luhan De Paula</a>.
 </h3>
 
 # Projeto Interdisciplinar - Fatec Jahu
@@ -111,7 +111,7 @@ O desenvolvimento do sistema ocorreu de forma híbrida, combinando encontros pre
 
 # 2. Requisitos  
 
-## Requisitos Funcionais <br> 
+## Requisitos Funcionais 
 Um documento de requisitos de sistema descreve o que o sistema deve fazer, suas funções, regras e limitações. Ele serve como guia para o desenvolvimento, ajudando a garantir que o sistema atenda às necessidades dos usuários e funcione corretamente.
 
 ## 2.1 Requisitos funcionais
