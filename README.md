@@ -15,41 +15,14 @@
 
 <h3 align="center">Autores</h3>
 
-<table align="center">
-  <tr>
-    <td align="center" style="padding: 15px;">
-      <img src="https://github.com/user-attachments/assets/c24c1caf-82cc-49a1-8f84-700b133ec2ff" width="150" style="border-radius: 15px;" /><br>
-      <strong>
-        <a href="https://www.linkedin.com/in/aline-canola-antonio-rocha-3a881b369" target="_blank">Aline C. A. Rocha</a>
-      </strong>
-    </td>
-    <td align="center" style="padding: 15px;">
-      <img src="https://github.com/user-attachments/assets/5157d044-3c37-4041-a560-a86fc6525481" width="150" style="border-radius: 15px;" /><br>
-      <strong>
-        <a href="#">Evellyn Santana</a>
-      </strong>
-    </td>
-    <td align="center" style="padding: 15px;">
-      <img src="https://github.com/user-attachments/assets/9bc0f4bc-b4c5-4130-a62c-17d6b213d563" width="150" style="border-radius: 15px;" /><br>
-          <strong>
-        <a href="#">Lucas A. Ribeiro</a>
-      </strong>
-    </td>
-    <td align="center" style="padding: 15px;">
-      <img src="https://github.com/user-attachments/assets/9a7cd450-a2eb-4dd2-805f-c56960aec8c6" width="150" style="border-radius: 15px;" /><br>
-      <strong>
-        <a href="#">Luhan</a>
-      </strong>
-    </td>
-    <td align="center" style="padding: 15px;">
-      <img src="https://github.com/user-attachments/assets/e7a99a5f-e5f8-427f-9b33-d6b331ccd071" width="150" style="border-radius: 15px;" /><br>
-      <strong>
-        <a href="https://www.linkedin.com/in/tainaravit-santos2025/" target="_blank">Tainara Santos</a>
-      </strong>
-    </td>
-
-  </tr>
-</table>
+<h3 align="center">
+  <a href="#"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="LinkedIn" align="center" width="35"></a> &nbsp;
+  <a href="https://www.linkedin.com/in/joaosurita/">Tainara Santos</a>;
+  <a href="https://www.linkedin.com/in/brunoobrunelli/">Aline Rocha</a>;
+  <a href="https://www.linkedin.com/in/eduardo-petarnella-gabri-18986b353/">Evellyn Santana</a>.
+   <a href="https://www.linkedin.com/in/eduardo-petarnella-gabri-18986b353/">Lucas Ribeiro</a>.
+    <a href="https://www.linkedin.com/in/eduardo-petarnella-gabri-18986b353/">Luhan De Paula</a>.
+</h3>
 
 # Projeto Interdisciplinar - Fatec Jahu
 Projeto desenvolvido com apoio dos conteúdos das disciplinas do 1º Semestre do curso de DSM – Fatec Jahu, especificamente:
@@ -109,11 +82,11 @@ Construir um sistema que contribua para um atendimento mais rápido, organizado 
 
 ---
 
-## 🛠️ Metodologia  
+## Metodologia  
 
 Para o desenvolvimento do sistema Essense Spa, foram adotados métodos, ferramentas e tecnologias que garantiram organização, colaboração eficiente e agilidade na construção das funcionalidades.
 
-### 🔹 Métodos e Processo
+### Métodos e Processo
 
 - Aplicação de um modelo ágil baseado no Scrum (versão simplificada)  
 - Reuniões frequentes para alinhamento e definição de prioridades 
@@ -121,7 +94,7 @@ Para o desenvolvimento do sistema Essense Spa, foram adotados métodos, ferramen
 - Controle de tarefas utilizando Trello, organizado em listas no estilo Kanban  
 - Registro de decisões e histórico de desenvolvimento por meio de Issues 
 
-### 🔹 Tecnologias e Ferramentas
+### Tecnologias e Ferramentas
 
 - **Frontend:** HTML5, CSS3 e JavaScript  
 - **Design e prototipação:** Figma  
@@ -131,7 +104,7 @@ Para o desenvolvimento do sistema Essense Spa, foram adotados métodos, ferramen
 - **Comunicação:** WhatsApp e reuniões presenciais/online  
 - **Apresentação:** PowerPoint  
 
-### 🔹 Onde e quando aplicamos
+###  Onde e quando aplicamos
 
 O desenvolvimento do sistema ocorreu de forma híbrida, combinando encontros presenciais e atividades remotas. O projeto foi desenvolvido ao longo do 2º semestre de 2025, com ajustes finais realizados nos últimos encontros da equipe.
 
@@ -139,60 +112,63 @@ O desenvolvimento do sistema ocorreu de forma híbrida, combinando encontros pre
 
 # 2. Requisitos  
 
-## ⚙️ Requisitos Funcionais <br> 
+## Requisitos Funcionais <br> 
+Um documento de requisitos de sistema descreve o que o sistema deve fazer, suas funções, regras e limitações. Ele serve como guia para o desenvolvimento, ajudando a garantir que o sistema atenda às necessidades dos usuários e funcione corretamente.
 
-### 🔷 Requisitos de Agendamento <br> 
-- **RF01** Cancelar e remarcar agendamento pelo cliente <br> 
-- **RF02** Cancelar e remarcar agendamento pelo profissional <br> 
-- **RF03** Controlar agenda individual do esteticista <br> 
-- **RF04** Enviar formulário de agendamento  <br>
+## 2.1 Requisitos funcionais
 
-### 🔷 Requisitos de Preferência e Seleção  <br>
-- **RF05** Escolher esteticista durante o agendamento  <br>
+### RF01 – Cancelar Sessão pelo Cliente: 
+O sistema deve permitir que o cliente cancele uma sessão com antecedência mínima de 24 horas. 
 
-### 🔷 Requisitos de Relatórios  <br>
-- **RF06** Emitir relatórios gerenciais <br>  
-- **RF07** Emitir relatórios de clientes <br> 
+### RF02 – Cancelar Sessão pela Esteticista: 
+O sistema deve permitir que a esteticista cancele o horário de um cliente, notificando o cliente automaticamente. 
 
-### 🔷 Requisitos de Comunicação <br> 
-- **RF08** Enviar notificações e lembretes <br> 
+### RF03 – Acessar Agenda Individual: 
+O sistema deve permitir que cada esteticista possua login individual, com acesso apenas à sua própria agenda. 
 
-### 🔷 Requisitos de Identificação <br>  
-- **RF09** Realizar login  <br>
-- **RF10** Realizar cadastro <br> 
+### RF04 – Escolher Esteticista: 
+O sistema deve permitir que o cliente escolha a esteticista desejada no momento do agendamento. 
 
----
+### RF05 – Enviar Notificações e Lembretes: 
+O sistema deve enviar notificações/lembretes de consultas aos clientes. 
 
-## 🧩 Requisitos Não Funcionais  <br>
+### RF06 – Integrar com Redes Sociais e Aplicativos: 
+O sistema deve permitir integração com redes sociais e whatsapp. 
 
-### 🔷 Requisitos de Produto  <br> 
-- **RNF01** Garantir autenticação segura  <br>
-- **RNF02** Assegurar alto desempenho  <br>
-- **RNF03** Permitir personalização da interface <br> 
-- **RNF04** Garantir usabilidade  <br>
-- **RNF05** Proporcionar boa experiência do usuário  <br>
-- **RNF06** Garantir responsividade  <br>
+### RF07– Permitir Autonomia da Administradora: 
+O sistema deve permitir que a administradora tenha autonomia para realizar alterações, como ajustes em funcionalidades, regras ou conteúdos. 
 
-### 🔷 Requisitos de Confiabilidade  <br>
-- **RNF07** Proteger dados sensíveis  <br>
-- **RNF08** Implementar lembretes automáticos  <br>
-- **RNF09** Manter histórico da agenda  <br>
-- **RNF10** Garantir restrições de acesso  <br>
+### RF08 – Agendar  e Pagar Online: 
+O sistema deve permitir agendamento e pagamentos online. 
+ 
+ 
+## 2.2. Requisitos não funcionais
+ 
+ ### RNF01 – Segurança (Autenticação):
+O sistema deve exigir login e senha válidos para acesso, garantindo a proteção
+dos dados do usuário.
 
-### 🔷 Requisitos de Organização  <br>
-- **RNF11** Oferecer autonomia ao administrador  <br>
-- **RNF12** Disponibilizar controle financeiro  <br>
-- **RNF13** Registrar cancelamentos do cliente  <br>
-- **RNF14** Registrar cancelamentos do esteticista  <br>
+### RNF02 – Desempenho:
+As páginas do sistema devem carregar em no máximo 3 segundos, mesmo em condições de internet limitada.
 
-### 🔷 Requisitos de Implementação  <br>
-- **RNF15** Implementar pré-pagamento  <br>
-- **RNF16** Implementar seleção de esteticista <br> 
+### RNF03 – Usabilidade:
+Um novo usuário deve conseguir realizar um agendamento em até 3 minutos, sem necessidade de treinamento prévio.
 
-### 🔷 Requisitos de Interoperabilidade  <br>
-- **RNF17** Habilitar marketing automatizado <br> 
+### RNF04 – Personalização da Interface:
+A interface deve ser personalizada e detalhada, sem comprometer a clareza e a
+facilidade de uso.
 
----
+### RNF05 – Experiência do Usuário:
+O sistema deve proporcionar uma experiência agradável e intuitiva, incentivando
+o retorno e a fidelização dos clientes.
+
+### RNF06 – Segurança (Dados Sensíveis):
+Os dados de pagamento devem ser armazenados e transmitidos de forma
+criptografada, seguindo boas práticas de segurança.
+
+### RNF07 – Responsividade:
+O sistema deve ser responsivo, funcionando corretamente em dispositivos
+desktop e mobile.
 
 # 7. Estudo de viabilidade  
 
