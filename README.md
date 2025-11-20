@@ -2,7 +2,7 @@
 
 <div align="center" id="inicio">
 
-# ERP Essense SPA - Sistema de Agendamento para Clínica de Estética  
+### Essense Spa – Sistema de Gestão para Clínica de Estética  
 ### Centro Paula Souza  
 ### Faculdade de Tecnologia de Jahu  
 ### Curso de Tecnologia em Desenvolvimento de Software Multiplataforma  
@@ -301,6 +301,8 @@ O desenvolvimento do ERP Essense SPA representou uma experiência completa de in
 A solução proposta busca facilitar o dia a dia das clínicas de estética, oferecendo agilidade, organização e ferramentas gerenciais que fortalecem a tomada de decisão.
 
 O projeto permanece em evolução, e melhorias futuras poderão ser incorporadas conforme novas necessidades e feedbacks dos usuários surgirem.
+
+
 
 
 
