@@ -2,110 +2,299 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Procedimentos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agendamento</title>
 
-  <!-- Icones -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Icones -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #63c1bb;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/index.html">
-        <img src="/img/Logo.png" alt="Logo da Clinica" width="100">
-      </a>
-
-      <!-- Botão Hamburguer -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Links -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active text-white" href="/login/index.html">Página Inicial</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="/procedimentos/index.html
-            ">Procedimentos</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="/sobre/index.html">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="/sobreNos/index.html">Desenvolvedores</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Páginas</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/galeria/index.html">Galeria</a></li>
-              <li><a class="dropdown-item" href="/equipe/index.html">Equipe</a></li>
-            </ul>
-          </li>
-        </ul>
-
-        <div class="d-flex align-items-center">
-          <!-- Campo de busca -->
-          <form class="d-flex me-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Procurar</button>
-          </form>
-
-          <!-- Menu Usuário -->
-          <!-- Menu Usuário com ícones e hover Bootstrap -->
-          <div class="dropdown">
-            <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle"
-              data-bs-toggle="dropdown">
-              <img src="/img/gallery-8.jpg" alt="perfil" class="rounded-circle" width="50" height="50">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #63c1bb;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/img/Logo.png" alt="Logo da Clinica" width="100">
             </a>
 
-            <ul class="dropdown-menu dropdown-menu-end shadow" style="min-width: 230px;">
-              <li>
-                <h6 class="dropdown-header text-center">Olá, Usuário!</h6>
-              </li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
+            <!-- Botão Hamburguer -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <i class="bi bi-calendar-check me-2 text-primary"></i>
-                  <span>Meus Agendamentos</span>
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <i class="fas fa-user me-2 text-primary"></i>
-                  <span>Meus Dados</span>
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <i class="bi bi-shield-lock me-2 text-primary"></i>
-                  <span>Alterar Senha</span>
-                </a>
-              </li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active text-white" href="/login/index.html">Página
+                            Inicial</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/procedimentos/index.html
+            ">Procedimentos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/sobre/index.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="/sobreNos/index.html">Desenvolvedores</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                            data-bs-toggle="dropdown">Páginas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/galeria/index.html">Galeria</a></li>
+                            <li><a class="dropdown-item" href="/equipe/index.html">Equipe</a></li>
+                        </ul>
+                    </li>
+                </ul>
 
-              <li>
-                <hr class="dropdown-divider">
-              </li>
+                <div class="d-flex align-items-center">
+                    <!-- Campo de busca -->
+                    <form class="d-flex me-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Procurar</button>
+                    </form>
 
-              <li>
-                <a class="dropdown-item d-flex align-items-center text-danger" href="#">
-                  <i class="fas fa-sign-out-alt me-2"></i>
-                  <span>Sair</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+                    <!-- Menu Usuário -->
+                    <!-- Menu Usuário com ícones e hover Bootstrap -->
+                    <div class="dropdown">
+                        <a href="#" class="d-flex align-items-center text-decoration-none dropdown-toggle"
+                            data-bs-toggle="dropdown">
+                            <img src="/img/gallery-8.jpg" alt="perfil" class="rounded-circle" width="50" height="50">
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-end shadow" style="min-width: 230px;">
+                            <li>
+                                <h6 class="dropdown-header text-center">Olá, Usuário!</h6>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <i class="bi bi-calendar-check me-2 text-primary"></i>
+                                    <span>Meus Agendamentos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <i class="fas fa-user me-2 text-primary"></i>
+                                    <span>Meus Dados</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <i class="bi bi-shield-lock me-2 text-primary"></i>
+                                    <span>Alterar Senha</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center text-danger" href="#">
+                                    <i class="fas fa-sign-out-alt me-2"></i>
+                                    <span>Sair</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fim da Navbar -->
+
+    <!-- Agendamento -->
+    <div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center text-light" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url('/img/appointment-background.jpg') center/cover no-repeat;">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-6">
+                    <div class="p-5 bg-dark bg-opacity-50 rounded-4 shadow">
+
+                        <p class="fs-5 text-uppercase text-primary text-center">Entre em Contato</p>
+                        <h1 class="display-5 fw-bold text-center mb-4">Marcar Consulta</h1>
+
+                        <form id="formAgendamento">
+                            <div class="row g-3">
+
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Seu Nome" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Seu Celular (WhatsApp)"
+                                        required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <select class="form-select" required>
+                                        <option disabled selected>Selecione o Procedimento</option>
+                                        <option>Botox</option>
+                                        <option>Limpeza de Pele</option>
+                                        <option>Endolaser</option>
+                                        <option>Jato Plasma</option>
+                                        <option>Clareamento Íntimo</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <select id="esteticista" class="form-select" required>
+                                        <option disabled selected>Selecione a Esteticista</option>
+                                        <option value="dniele">Daniele Carvalho</option>
+                                        <option value="eliana">Eliana Cândido</option>
+                                        <option value="silvia">Silvia Bertlim</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label small">Escolha a Data</label>
+                                    <input type="date" id="data-agendamento" class="form-control" disabled required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label small">Escolha o Horário</label>
+                                    <select id="hora-agendamento" class="form-select" disabled required>
+                                        <option disabled selected>Selecione um horário</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12 mt-3">
+                                    <button type="submit" class="btn btn-primary w-100 py-3 fs-5">
+                                        Marcar Agora
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer py-5 bg-dark text-light">
+        <div class="container py-4">
+            <div class="row g-5 align-items-start">
+
+                <!-- Coluna 1: Sobre -->
+                <div class="col-md-6 col-lg-4">
+                    <h2 class="footer-logo text-white">Essense Spa</h2>
+                    <p>
+                        Transforme o seu dia em um momento de paz e equilíbrio. Experimente nossos tratamentos que
+                        renovam corpo e
+                        mente.
+                    </p>
+                    <div class="social-icons mt-3">
+                        <a href="https://www.facebook.com/profile.php?id=61566956321244" target="_blank"
+                            class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/_essensespa/" target="_blank" class="text-white me-3"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/14991047820" class="text-white" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Serviços -->
+                <div class="col-md-6 col-lg-4">
+                    <h4 class="text-white mb-4">Nossos Serviços</h4>
+                    <p>
+                        Descubra nossos tratamentos de beleza, relaxamento e bem-estar, criados para cuidar de você dos
+                        pés à
+                        cabeça.
+                    </p>
+                    <a href="/procedimentos/index.html" class="btn btn-outline-light rounded-pill mt-3 px-4">
+                        Ver todos os serviços
+                    </a>
+                </div>
+
+                <!-- Coluna 3: Contato -->
+                <div class="col-md-12 col-lg-4">
+                    <h4 class="text-white mb-4">Fale Conosco</h4>
+                    <p><i class="fas fa-map-marker-alt text-secondary me-2"></i> Rua Rui Barbosa 853, Jaú - SP, Brasil
+                    </p>
+                    <p><i class="fas fa-envelope text-secondary me-2"></i> contato@essensespa.com.br</p>
+                    <p><i class="fas fa-phone text-secondary me-2"></i> (14) 99104-1820</p>
+                    <p><i class="fas fa-clock text-secondary me-2"></i> Seg - Sáb: 08:00h - 18:00h</p>
+                </div>
+
+            </div>
 
         </div>
-      </div>
-    </div>
-  </nav>
+    </footer>
+    <!-- Final footer -->
 
-  <!-- Fim da Navbar -->
+    <!-- Copyright -->
+
+    <div class="container-fluid bg-dark text-light py-4 border-top border-secondary">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start gy-3">
+
+                <!-- Coluna 1: Direitos -->
+                <div class="col-md-4">
+                    <p class="mb-0 small">
+                        <i class="fas fa-copyright me-1"></i>
+                        <span class="fw-semibold">Essense Spa</span> — Todos os direitos reservados.
+                    </p>
+                </div>
+
+                <!-- Coluna 2: Ícones sociais -->
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-center justify-content-md-center gap-2">
+                        <a href="https://www.facebook.com/profile.php?id=61566956321244" target="_blank"
+                            class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 36px; height: 36px;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/_essensespa/" target="_blank"
+                            class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 36px; height: 36px;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/14991047820" target="_blank"
+                            class="btn btn-outline-light btn-sm rounded-circle d-flex align-items-center justify-content-center"
+                            style="width: 36px; height: 36px;">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coluna 3: Créditos -->
+                <div class="col-md-4 text-md-end">
+                    <p class="mb-0 small">
+                        Projetado por
+                        <a href="https://fatecjahu.edu.br/desenvolvimento-de-software-multiplataforma/" target="_blank"
+                            class="text-light text-decoration-underline">
+                            Alunos de DSM — FATEC Jaú
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  Fim Copyright -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

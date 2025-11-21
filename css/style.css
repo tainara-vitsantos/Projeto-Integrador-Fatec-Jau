@@ -1,7 +1,11 @@
 :root {
-  --bs-primary: #00d4d4;
-  --bs-primary-rgb: 0, 212, 212;
+  --bs-primary: #63c1bb;
+  --bs-secondary: #9ed5d1;
 
+}
+
+.navbar {
+    background-color: #63c1bb ; 
 }
 
 
@@ -82,8 +86,6 @@
 .nav-pills .nav-link.active {
   background-color: var(--bs-primary) !important;
 }
-
-
 
 
 /* Carrossel */
