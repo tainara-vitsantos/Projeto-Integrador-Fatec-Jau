@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Horários por esteticista
   const horarios = {
-    ana: ["08:00", "09:00", "10:00", "14:00", "15:00"],
-    carla: ["09:00", "11:00", "13:00", "16:00"],
-    julia: ["10:00", "12:00", "14:00", "17:00"]
+    daniele: ["08:00", "09:00", "10:00", "14:00", "15:00"],
+    eliana: ["09:00", "11:00", "13:00", "16:00"],
+    silvia: ["10:00", "12:00", "14:00", "17:00"]
   };
 
   // Impedir datas anteriores
@@ -43,5 +43,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+document.getElementById("formAgendamento").addEventListener("submit", function (e) {
+    e.preventDefault();
 
+    // Capturar dados pessoais
+    const nome = document.querySelector("input[placeholder='Seu Nome']").value;
+    const celular = document.querySelector("input[placeholder='Seu Celular (WhatsApp)']").value;
+    const email = document.querySelector("input[type=email]")?.value || "Não informado";
+    const cpf = document.querySelector("input[placeholder='Seu CPF']")?.value || "Não informado";
+
+    // Capturar dados do agendamento
+    const procedimento = document.querySelector("select.form-select").value;
+    const esteticista = document.getElementById("esteticista").selectedOptions[0].textContent;
+    const data = document.getElementById("data-agendamento").value.split("-").reverse().join("/");
+    const hora = document.getElementById("hora-agendamento").value;
+
+    // Preencher modal
+    document.getElementById("confNome").textContent = nome;
+    document.getElementById("confCelular").textContent = celular;
+    document.getElementById("confEmail").textContent = email;
+    document.getElementById("confCPF").textContent = cpf;
+
+    document.getElementById("confProcedimento").textContent = procedimento;
+    document.getElementById("confEsteticista").textContent = esteticista;
+    document.getElementById("confData").textContent = data;
+    document.getElementById("confHora").textContent = hora;
+
+    // Abrir modal
+    const modal = new bootstrap.Modal(document.getElementById("modalConfirmacao"));
+    modal.show();
+});
 
