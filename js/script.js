@@ -34,13 +34,6 @@ document.addEventListener("DOMContentLoaded", () => {
       horaSelect.innerHTML += `<option>${h}</option>`;
     });
   });
-
-  // Submit
-  document.getElementById("formAgendamento").addEventListener("submit", (e) => {
-    e.preventDefault();
-    alert("Consulta marcada com sucesso!");
-  });
-
 });
 
 document.getElementById("formAgendamento").addEventListener("submit", function (e) {
