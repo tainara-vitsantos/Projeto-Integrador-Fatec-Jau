@@ -282,7 +282,7 @@ A paleta transmite leveza, bem-estar e equilíbrio:
 Antes do desenvolvimento, as telas foram planejadas e testadas através de um protótipo navegável no Figma.
 
 **Acesse o protótipo:**  
-<a href="[https://www.figma.com/proto/1Le26sngVuPy61TJzUhlfK/TelasLuhan?node-id=670-1431&t=h7rONkitrp9DdYNM-1](https://www.figma.com/proto/1Le26sngVuPy61TJzUhlfK/TelasLuhan?node-id=670-677&starting-point-node-id=670%3A677)" target="_blank"><strong>Protótipo no Figma</strong></a>
+<a href="[https://www.figma.com/proto/1Le26sngVuPy61TJzUhlfK/TelasLuhan?node-id=670-1431&t=h7rONkitrp9DdYNM-1]" target="_blank"><strong>Protótipo no Figma</strong></a>
 
 
 # 11. Aplicação  
@@ -298,6 +298,7 @@ O desenvolvimento do Sistema de Gestão: Essense SPA representou uma experiênci
 A solução proposta busca facilitar o dia a dia das clínicas de estética, oferecendo agilidade, organização e ferramentas gerenciais que fortalecem a tomada de decisão.
 
 O projeto permanece em evolução, e melhorias futuras poderão ser incorporadas conforme novas necessidades e feedbacks dos usuários surgirem.
+
 
 
 
