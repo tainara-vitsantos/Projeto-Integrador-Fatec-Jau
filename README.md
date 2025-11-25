@@ -172,63 +172,46 @@ desktop e mobile.
 # 7. Estudo de viabilidade  
 
 ## Viabilidade Técnica:
-  A análise sobre a viabilidade técnica do sistema de gestão mostrou que sua criação e funcionamento é possível com os recursos disponíveis. O time de desenvolvimento possui e está evoluindo em níveis de programação, gerenciamento e conhecimento técnico nos recursos necessários. A infraestrutura do projeto permite fácil integração e manuseio por parte do usuário.
+A viabilidade técnica do Essense Spa demonstra que o projeto pode ser desenvolvido e mantido com os recursos tecnológicos e conhecimentos atualmente disponíveis pela equipe. As tecnologias selecionadas para a construção da plataforma — como HTML, CSS, JavaScript e Bootstrap — são amplamente utilizadas, possuem documentação robusta e contam com grande suporte da comunidade, garantindo estabilidade e facilidade de implementação.
+
+A infraestrutura necessária para o funcionamento do sistema é simples e acessível, exigindo apenas um ambiente de hospedagem padrão, compatível com aplicações web estáticas ou dinâmicas. Além disso, o projeto utiliza ferramentas gratuitas ou de baixo custo, como plataformas de versionamento, bibliotecas front-end e serviços de integração, o que reduz barreiras técnicas e facilita o desenvolvimento.
+
+A equipe envolvida possui domínio suficiente sobre as tecnologias empregadas, sendo capaz de desenvolver novas funcionalidades, realizar ajustes estruturais e aplicar boas práticas de design responsivo e usabilidade. Esse conhecimento técnico garante que o sistema possa ser implementado com qualidade, além de permitir futuras expansões sem comprometer a arquitetura inicial.
+
+Outro ponto positivo é que a plataforma é flexível e pode ser integrada futuramente com APIs, serviços de agendamento online ou sistemas administrativos internos, caso o Essense Spa deseje ampliar suas operações digitais.
+
+Dessa forma, conclui-se que o projeto apresenta alta viabilidade técnica, visto que os recursos tecnológicos necessários são acessíveis, as ferramentas selecionadas são adequadas e a equipe possui capacidade para desenvolver, testar e manter o sistema de forma eficiente.
 
 ## Viabilidade Operacional:
-Fluxo operacional:
--	O cliente acessa o site e agenda o horário.
--	O sistema envia automaticamente um lembrete por WhatsApp ou e-mail.
--	Profissional confirma o agendamento.
--	O sistema financeiro integrado faz o controle das cobranças.
+A viabilidade operacional do Essense Spa demonstra que o sistema proposto pode ser implementado e utilizado de forma eficiente pelos usuários finais. O funcionamento da plataforma é sustentado por uma estrutura simples, intuitiva e compatível com os recursos disponíveis pela equipe de desenvolvimento e pelos futuros administradores do sistema.
 
-Usuários principais:
--	Esteticistas.
--	Gestores da clínica.
--	Clientes.
+A interface foi planejada para ser clara e de fácil navegação, garantindo que clientes e colaboradores consigam acessar informações, realizar agendamentos e visualizar serviços sem necessidade de treinamento avançado. Além disso, o fluxo de navegação é objetivo, o que reduz a ocorrência de erros operacionais e facilita a adoção do sistema por parte dos usuários.
 
-Benefícios esperados:
--	Redução de erros como agendamentos duplicados ou esquecidos.
--	Fidelização dos clientes com programas de assinatura e promoções.
--	Comunicação automática.
--	Melhor tomada de decisão com base nos relatórios.
+A equipe responsável pelo projeto possui o conhecimento técnico necessário para realizar atualizações, correções e melhorias contínuas, o que assegura a manutenção operacional da plataforma ao longo do tempo. Os recursos utilizados, como frameworks, bibliotecas e tecnologias de hospedagem, são amplamente conhecidos e possuem suporte constante da comunidade, fortalecendo a estabilidade do sistema.
 
-Conclusão operacional:
-O sistema vai se integrar de forma natural às rotinas da clínica. A equipe só precisará de um treinamento curto, para aprender a utilizar todas as funções.
+Por fim, a estrutura operacional do Essense Spa permite fácil integração de novas funcionalidades no futuro, como sistemas de pagamento, gerenciamento de clientes ou módulos adicionais. Isso garante que o sistema possa evoluir conforme a necessidade do negócio sem comprometer seu desempenho.
+
+Dessa forma, conclui-se que o Essense Spa apresenta alta viabilidade operacional, com capacidade de funcionar plenamente dentro do ambiente proposto e atender às demandas dos usuários de maneira eficiente e sustentável.
 
 ## Viabilidade Financeira:
-Custos estimados:
-O projeto não terá custo de desenvolvimento, pois será elaborado com apoio academico dos alunos e professores do curso DSM – Fatec Jahu
+A análise de viabilidade financeira do Essense Spa demonstra que o projeto é financeiramente executável com os recursos disponíveis e apresenta bom potencial de retorno. O investimento inicial envolve custos relacionados ao desenvolvimento do site, aquisição de infraestrutura tecnológica mínima, contratação de serviços de hospedagem e possíveis ferramentas complementares para otimizar a experiência do usuário. Esses valores se mantêm dentro de um orçamento acessível e proporcional ao porte do projeto.
 
-Modelos de receita possíveis:
--	SaaS: a clínica paga valor mensal de R$ 149,90. 
+Os custos operacionais também são reduzidos, uma vez que grande parte das ferramentas utilizadas no desenvolvimento é gratuita ou possui versões acessíveis. Além disso, a manutenção do sistema exige apenas atualizações periódicas e gerenciamento simples, o que reduz despesas a longo prazo.
 
-Exemplo de retorno no modelo SaaS:
-Se 10 clínicas assinarem o sistema por R$ 149,90/mês, o faturamento será de R$ 1.499,00/mês.
-Com isso, o investimento inicial pode ser recuperado em 7 meses.
+Do ponto de vista de retorno financeiro, o Essense Spa tem potencial para gerar receita com a ampliação da visibilidade da marca, atração de novos clientes e otimização dos serviços oferecidos pelo spa. A plataforma pode futuramente incluir funcionalidades pagas, como agendamentos automáticos, venda de produtos ou pacotes exclusivos, aumentando ainda mais a rentabilidade.
 
-Conclusão financeira:
-O projeto é financeiramente viável. O modelo de mensalidade SaaS é mais vantajoso, pois garante retorno contínuo e sustentável.
+Assim, considerando o baixo custo de implementação, a manutenção acessível e o potencial de retorno através do fortalecimento digital da marca, conclui-se que o projeto Essense Spa é financeiramente viável e apresenta perspectivas positivas para expansão futura.
 
 ## Viabilidade de Mercado:
-O setor de estética no Brasil está em crescimento e muitas clínicas ainda utilizam métodos manuais, como planilhas ou cadernos, o que causa falhas na gestão. Isso mostra uma grande oportunidade de digitalização.
-Concorrentes identificados:
--	MP Sistemas Jaú
--	STi3 Sistemas (localizado em Jaú)
--	Gestek (Goiania, porém é um sistema online totalmente focado em atender clinicas de estética)
+A viabilidade de mercado do Essense Spa demonstra que existe uma demanda crescente por serviços de bem-estar, cuidados estéticos e experiências de relaxamento, o que favorece a aceitação e utilização da plataforma proposta. O mercado de spas e clínicas estéticas tem apresentado expansão constante, impulsionado pela busca por qualidade de vida, autocuidado e serviços personalizados. Esse cenário cria um ambiente favorável para a adoção de ferramentas digitais que melhorem a visibilidade e o atendimento ao cliente.
 
-Diferenciais do projeto:
--	Maior facilidade de acesso
--	Mais flexível
--	Maior adaptabilidade
+A criação do site Essense Spa contribui diretamente para fortalecer a presença online da marca, ampliando seu alcance e atraindo novos clientes que pesquisam serviços estéticos pela internet. A plataforma também facilita o contato com o público-alvo, permitindo que usuários visualizem serviços, valores, profissionais e agendamentos de forma rápida e acessível, o que aumenta a competitividade do negócio em relação a concorrentes que ainda não possuem presença digital estruturada.
 
-Conclusão de mercado:
-Existe uma demanda crescente no setor. O diferencial do projeto está no foco exclusivo em clínicas de estética e na personalização, indo além do básico oferecido pelos concorrentes.
+Além disso, o comportamento do consumidor moderno valoriza praticidade, informação imediata e facilidade na contratação de serviços. Nesse contexto, o Essense Spa atende às necessidades do mercado ao oferecer uma interface clara, intuitiva e compatível com dispositivos móveis, alinhada às tendências atuais de consumo digital.
 
-Resumo Final
-O estudo mostrou que o projeto é: 
--	Tecnicamente viável: os recursos necessários foram adquiridos.
--	Operacionalmente aplicável: simples de usar, exigindo pouco treinamento.
--	Financeiramente sustentável: com possibilidade de retorno rápido no modelo SaaS.
+O projeto também acompanha o crescimento das buscas online por tratamentos estéticos, procedimentos de bem-estar e experiências de spa, indicando que há espaço para expansão e fidelização de clientes por meio da plataforma. Com estratégias simples, como divulgação em redes sociais, campanhas de marketing digital e atualizações constantes no site, o Essense Spa possui grande potencial para conquistar maior participação no mercado local.
+
+Diante desse cenário, conclui-se que o projeto apresenta alta viabilidade de mercado, pois responde às demandas atuais dos consumidores, fortalece a presença digital do negócio e amplia significativamente as oportunidades de crescimento e visibilidade da marca.
 
 
 
@@ -290,7 +273,7 @@ Antes do desenvolvimento, as telas foram planejadas e testadas através de um pr
 Nesta seção apresentamos a versão final da aplicação hospedada, permitindo navegar e visualizar o ERP funcionando.
 
 **Acessar aplicação:**  
-<a href="https://projeto-integrador-ashen-omega.vercel.app/index.html" target="_blank"><strong>Sistema de Gestão: Essense SPA</strong></a>
+<a href="https://projeto-integrador-fatec-jau.vercel.app/" target="_blank"><strong>Sistema de Gestão: Essense SPA</strong></a>
 
 ## Considerações Finais
 
